@@ -1,0 +1,112 @@
+body{
+    background-color: #fff;
+}
+.maincontainer{
+    float:left;
+    width:100%;
+}
+/* Header */
+.maincontainer .header{
+    float: left;
+    width:100%;
+        
+    background-color:lightcyan;
+}
+.maincontainer .header .logo img{
+    float:left;
+    width:131px;
+    height:28px;
+    margin-top:8px;
+}
+
+.maincontainer .header .navigation ul{
+    list-style: none;
+    margin: 0;
+    float: right;
+    padding: 0;
+}
+.maincontainer .header .navigation ul li{
+    float:left;
+    padding: 10px 15px;
+}
+.maincontainer .header .navigation ul li a{
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+.sidenav{
+    background-color:#111;
+    height:100%;
+    width:0;
+    padding-top: 60px;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:1;
+    overflow-x: hidden;
+    transition: 1s;
+}
+.sidenav ul{
+    list-style: none;
+    padding-left: 10px;
+}
+.sidenav ul li{
+    padding: 10px;
+}
+.sidenav ul li a{
+    text-decoration: none;
+}
+.sidenav a{
+    padding: 0;
+    text-decoration: none;
+    transition:0.3s;
+    color:#fff;
+    font-size:18px;
+    display: block;
+    text-transform: uppercase;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top:0;
+    left:210px;
+    font-size: 40px;
+    text-decoration: none;
+}
+.togglesidemenu {
+    position: absolute;
+    top:30%;
+    left:10%;
+    cursor: pointer;
+    color:#f7ecb5f;
+}
+@media screen and (min-width: 992px) {
+    .togglesidemenu{
+        display: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    .navigation{
+        display: none;
+    }
+    .togglesidemenu{
+        position: inherit;
+        float: left;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        top:0;   
+    }
+    .logo img{
+        position: inherit;
+        float: left;
+        width: 100%;
+        text-align: center;
+        right: 40%;
+        top:0;
+        margin: 0;   
+    }
+}
+
+/* slider */
+

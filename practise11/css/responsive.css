@@ -1,0 +1,250 @@
+@media screen and (max-width: 768px){             /*       max-width: 768px      */
+    .slider .carousel-inner .croud3 .item3:first-child{
+        padding-top: 40px;
+        text-align: center;
+    }
+    .croud3 .btns3 button:first-child{
+        float: left;
+    }
+    .croud3 .croud-section3{
+        padding: 0;
+    }
+    .croud3 .croud-section3 .item3 .btn-success img{
+        width:30px;
+        height:40px;
+        float: left;
+    }
+    .croud3 .croud-section3 .item3:first-child img{
+        transform: rotate(0deg);
+        width: 235px;
+        height: 270px;
+    }
+    .croud3 .croud-section3 .item3 .btn-success p{
+        float: right;
+        color: #fff;
+        margin: 0;
+        font-size: 10px;
+    }
+    .slider .carousel-inner .croud3{
+        position: relative;
+        top:-550px;
+        left:0;
+        padding: 0;
+    }
+    .slider .carousel-inner .croud3 .croudpara3{
+        color: gray;
+        line-height:17px;
+    }
+    .croud .croud-section .item{
+        padding-top: 40px;
+    }
+    .croud .item:first-child{
+        padding-top: 40px;
+    }
+    .croud .btns button:first-child{
+        float: left;
+    }
+    .croud .croud-section{
+        padding: 0;
+    }
+    .croud .croud-section .item .btn-success img{
+        width:30px;
+        height:40px;
+        float: left;
+    }
+    .croud .item:last-child img{
+        transform: rotate(0deg);
+        width: 235px;
+        height: 270px;
+    }
+    .croud .croud-section .item .btn-success p{
+        float: right;
+        color: #fff;
+        margin: 0;
+        font-size: 10px;
+    }
+    .maincontainer .footer-section .footer .item{
+        padding:0; 
+    }
+    .croud2 .item2:first-child{
+        padding-top: 40px;
+    }
+    .croud2 .btns2 button:first-child{
+        float: left;
+    }
+    .croud2 .croud-section2{
+        padding: 0;
+    }
+    .croud2 .croud-section2 .item2 .btn-success img{
+        width:30px;
+        height:40px;
+        float: left;
+    }
+    .croud2 .croud-section2 .item2:first-child img{
+        transform: rotate(0deg);
+        width: 235px;
+        height: 270px;
+    }
+    .croud2 .croud-section2 .item2 .btn-success p{
+        float: right;
+        color: #fff;
+        margin: 0;
+        font-size: 10px;
+    }
+    .feature-section .item{
+        width:100%;
+        float: left;
+        text-align: center;
+        background-color:red;
+        display: contents;
+    }
+    .download-section .download .btn-success{
+        margin-bottom: 10px;
+    }
+    
+}
+@media screen and (max-width: 350px){               /*     max-width: 350px    */
+    .croud3 .item3:last-child{
+        text-align: center;
+        height:330px;
+    }
+    .croud3 .btns3{
+        align-items: center;
+        text-align: center;
+        height:45px;
+    }
+    .croud3 .btns3 button:first-child{
+        margin-bottom: 5px;
+    }
+    .croud3 .croudpara3{
+        color: gray;
+        line-height:20px;
+    }
+    .croud3 .croud-section3 .item3 .btn-success p{
+        float: right;
+        color: #fff;
+        margin: 0;
+        font-size:9px;
+    }
+    .croud3 .croud-section3 .item3 .btn-success span{
+        font-size:11px;
+    }
+    .croud3 .croud-section3 .item3 .btn-success img{
+        width:25px;
+        height:32px;
+        float: left;
+    }
+    .croud .item:last-child{
+        text-align: center;
+        height:330px;
+    }
+    .croud .btns{
+        align-items: center;
+        text-align: center;
+        height:45px;
+    }
+    .croud .btns button:first-child{
+        margin-bottom: 5px;
+    }
+    .croud .croudpara{
+        color: gray;
+        line-height:20px;
+    }
+    .croud .croud-section .item .btn-success p{
+        float: right;
+        color: #fff;
+        margin: 0;
+        font-size:9px;
+    }
+    .croud .croud-section .item .btn-success span{
+        font-size:11px;
+    }
+    .croud .croud-section .item .btn-success img{
+        width:25px;
+        height:32px;
+        float: left;
+    }
+    .croud2 .item2:last-child{
+        text-align: center;
+        height:330px;
+    }
+    .croud2 .btns2{
+        align-items: center;
+        text-align: center;
+        height:45px;
+    }
+    .croud2 .btns2 button:first-child{
+        margin-bottom: 5px;
+    }
+    .croud2 .croudpara2{
+        color: gray;
+        line-height:20px;
+    }
+    .croud2 .croud-section2 .item2 .btn-success p{
+        float: right;
+        color: #fff;
+        margin: 0;
+        font-size:9px;
+    }
+    .croud2 .croud-section2 .item2 .btn-success span{
+        font-size:11px;
+    }
+    .croud2 .croud-section2 .item2 .btn-success img{
+        width:25px;
+        height:32px;
+        float: left;
+    }
+    .croud3 .croud-section3 h2{
+        margin-bottom:0px;
+    }
+    .getintouch h3{
+        text-align:left;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media screen and (max-width: 991px){               /*   max-width: 991px    */
+    .menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 992px){               /*   max-width: 992px    */
+    .togglesidemenu{
+        float:left;
+        width: 100%;
+        position: inherit;
+        text-align: center;
+        
+    }
+}
+@media screen and (min-width: 992px){               /*   min-width: 992px    */
+    .togglesidemenu{
+        display: none;
+    }
+}
+@media screen and (max-width: 1008px){              /*   max-width: 1008px    */
+    .maincontainer .slider-bottom,
+    .maincontainer .croud,
+    .maincontainer .croud2,
+    .slider .carousel-inner .croud3,
+    .maincontainer .plan-section,
+    .maincontainer .text-slide,
+    .maincontainer .footer-section{
+        padding-right:0px;
+        padding-left: 0px;
+    }
+    .maincontainer .footer-section .footer .item ul{
+        display: inline-grid;
+        width:100%;
+    }
+    .maincontainer .footer-section .footer .item ul li{
+        display: inline;
+        padding:6px;
+    }
+    .maincontainer .footer-section .footer .item{
+        text-align: center;
+    }
+    .croud2 .item2:first-child{
+        text-align: center;
+    }
+}

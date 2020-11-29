@@ -1,0 +1,611 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.maincontainer{
+    float: left;
+    width:100%;
+    position: relative;
+}
+/*    Header Section    */
+.header{
+    float: left;
+    width:100%;
+}
+.logo{
+    float: left;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.logo img{
+    padding: 10px;
+}
+.sidenav{
+    height: 100%;
+    width:0%;
+    background: #000;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:9999;
+    overflow-x: hidden;
+    transition: 1s;
+}
+.togglesidemenu{
+    color:red;
+    font-size: 20px;
+    cursor:pointer;
+    position: absolute;
+    top:0;
+}
+.sidenav .closebtn{
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top: -10px;
+    right: 5px;
+    text-decoration: none;
+}
+.sidenav ul{
+    padding-left: 30px;
+    margin: 0;
+    list-style: none;
+    padding-top:60px;
+}
+.sidenav ul li{
+    padding: 10px;
+}
+.sidenav ul li a{
+    font-size:18px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menu{
+    float: right;
+    width:100%;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float:right;
+    padding: 10px;
+}
+.menu ul li{
+    float: left;
+
+}
+.menu ul li a{
+    text-transform: capitalize;
+    color: gray;
+    font-size: 19px;
+    text-decoration: none;
+    padding: 10px 23px;
+}
+.menu ul li a:hover{
+    text-decoration: none;
+    background: #6666ff;
+    color:#fff;
+    border-radius: 50px;
+
+}
+/*       Slider Section    */
+.slider{
+    float: left;
+    width:100%;
+    height:550px;
+}
+.carousel-control.left,
+.carousel-control.right{
+    background: none!important;
+}
+.slider .carousel-inner .item{
+    transition: 2s;
+}
+/*   slider content   */
+.slider .carousel-inner .croud3{
+    position: relative;
+    top:-500px;
+    left:0;
+}
+.slider .carousel-inner{
+    height:550px;
+    float: left;
+    width:100%;
+}
+.slider .carousel-inner .croud3{
+    float: left;
+    width:100%;
+    padding-top: 60px;
+    padding-right:100px;
+    padding-bottom: 60px;
+    padding-left:100px;
+    z-index:9999;
+}
+.croud3 .croud-section3 h2{
+    color:#fff;
+    margin-bottom: 30px;
+}
+.croud3 .croud-section3 .item3:first-child{
+    text-align: right;
+}
+.croud3 .croud-section3 .item3 .croudpara3{
+    color:#fff;
+    line-height: 30px;
+    
+}
+.croud3 .croud-section3 .item3 .btn-success img{
+    width: 41px;
+    height: 45px;
+    float: left;
+}
+.croud3 .croud-section3 .item3 .btn-success p{
+    float: right;
+    color: #fff;
+    margin: 0;
+}
+.croud3 .croud-section3 .item3 .btn-success span{
+    font-size: 19px;
+}
+.croud3 .croud-section3 .item3 button{
+    background-color: #6666ff;
+    border: 1px solid #6666ff;
+    padding: 5px 7px;
+}
+.croud3 .croud-section3 .item3 button:hover{
+    background: none;
+    border: 1px solid #6666ff;
+}
+.croud3 .croud-section3 .item3 .btns3 button:hover p{
+    color: #6666ff;
+}
+.croud3 button:first-child{
+    float: left;
+}
+.croud3 button:last-child{
+    float: right;
+}
+.croud3 .item3:first-child img{
+    width: 235px;
+    height: 270px;
+}
+.croud3 .item3:last-child{
+    text-align: left;;
+}  
+
+.croud3 .btns3{
+    width:100%;
+    float: left;
+}
+/*     Slider Bottom    */
+.slider-bottom{
+    float: left;
+    width:100%;
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    background: #f5f5f5;
+}
+.slider-bottom .item{
+    text-align: center;
+}
+.slider-bottom .item .content{
+    height: 55px;
+}
+.slider-bottom .item .content h3{
+
+}
+.slider-bottom .item p{
+    color: gray;
+}
+
+/*   Croud    */
+.croud{
+    float: left;
+    width:100%;
+    padding-top: 60px;
+    padding-right:100px;
+    padding-bottom: 60px;
+    padding-left:100px;
+}
+.croud .croud-section h2{
+    color:#6666ff;
+    margin-bottom: 30px;
+}
+.croud .croud-section .item .croudpara{
+    color: gray;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.croud .croud-section .item .btn-success img{
+    width: 41px;
+    height: 45px;
+    float: left;
+}
+.croud .croud-section .item .btn-success p{
+    float: right;
+    color: #fff;
+    margin: 0;
+}
+.croud .croud-section .item .btn-success span{
+    font-size: 19px;
+}
+.croud .croud-section .item button{
+    background-color: #6666ff;
+    border: 1px solid #6666ff;
+    padding: 5px 7px;
+}
+.croud .croud-section .item button:hover{
+    background: none;
+    border: 1px solid #6666ff;
+}
+.croud .croud-section .item .btns button:hover p{
+    color: #6666ff;
+}
+.croud button:first-child{
+    float: left;
+}
+.croud button:last-child{
+    float: right;
+}
+.croud .item:last-child img{
+    transform: rotate(40deg);
+    width: 235px;
+    height: 270px;
+}
+.croud .item:last-child{
+    text-align: center;
+}
+
+.croud .btns{
+    width:100%;
+    float: left;
+}
+
+/*    Croud 2   */
+.croud2{
+    float: left;
+    width:100%;
+    padding-top: 60px;
+    padding-right:100px;
+    padding-bottom: 60px;
+    padding-left:100px;
+    background: #f5f5f5;
+}
+.croud2 .croud-section2 h2{
+    color:#6666ff;
+    margin-bottom: 30px;
+}
+.croud2 .croud-section2 .item2 .croudpara2{
+    color: gray;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.croud2 .croud-section2 .item2 .btn-success img{
+    width: 41px;
+    height: 45px;
+    float: left;
+}
+.croud2 .croud-section2 .item2 .btn-success p{
+    float: right;
+    color: #fff;
+    margin: 0;
+}
+.croud2 .croud-section2 .item2 .btn-success span{
+    font-size: 19px;
+}
+.croud2 .croud-section2 .item2 button{
+    background-color: #6666ff;
+    border: 1px solid #6666ff;
+    padding: 5px 7px;
+}
+.croud2 .croud-section2 .item2 button:hover{
+    background: none;
+    border: 1px solid #6666ff;
+}
+.croud2 .croud-section2 .item2 .btns2 button:hover p{
+    color: #6666ff;
+}
+.croud2 button:first-child{
+    float: left;
+}
+.croud2 button:last-child{
+    float: right;
+}
+.croud2 .item2:first-child img{
+    transform: rotate(-45deg);
+    width: 235px;
+    height: 270px;
+}
+.croud2 .item2:last-child{
+    text-align: center;
+}    /**/
+
+.croud2 .btns2{
+    width:100%;
+    float: left;
+}
+
+/*     getintouch    */
+.getintouch{
+    float: left;
+    width:100%;
+    padding: 20px 0;
+    background: #1b6d85;
+}
+.getintouch h3{
+    color: #fff;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.getintouch form{
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+.getintouch form input[type="text"]{
+    border: none;
+    padding: 8px 10px;
+}
+.getintouch form a{
+    background: #6666ff;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.getintouch p{
+    color: floralwhite;
+    font-size: 13px;
+}
+/*    Text Slider   */
+.maincontainer .text-slide{
+    float: left;
+    width:100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #269abc;    
+}
+
+.maincontainer .text-slide .item{
+    color: #fff;
+}
+.maincontainer .text-slide .item p{
+    font-size: 14px;
+    text-align: justify;
+}
+.maincontainer .text-slide .item a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: right;
+    background-color: #1b6d85;
+    padding:8px;
+    margin-top: 20px;
+}
+.maincontainer .text-slide .item a:hover{
+    background-color: #00cccc;
+}
+/*     Plan Section    */
+.plan-section{
+    float: left;
+    width:100%;
+    padding: 50px 100px;
+    background: #f5f5f5;
+}
+.plan-section img{
+    width:40px;
+    height:40px;
+}
+.plan-section .item{
+    background: #fff;
+}
+.plan-section .item h4{
+    color: gray;
+    text-transform: capitalize;
+    font-size: 30px;
+    border-bottom: 2px solid gray;
+    padding: 20px;
+}
+.plan-section .item h5{
+    border-bottom: 2px solid gray;
+    color: gray;
+    font-size:25px;
+    padding: 15px 0px;
+}
+.plan-section .item h5 span{
+    color: #1b6d85;
+    font-weight: bold;
+    font-size: 25px;
+}
+.plan-section .item p{
+    font-size: 15px;
+    padding: 20px 0px;
+}
+.plan-section .topimg{
+    position: relative;
+    top: 29px;
+}
+/*     Social Section    */
+.social-section{
+    float: left;
+    width:100%;
+    padding: 60px 20px;
+}
+.social-section .item{
+    padding: 20px 10px;
+}
+.social-section .item img{
+    width: 90px;
+    height: 90px;
+}
+.social-section .item h3{
+    color: black;
+    font-weight: 550;
+    font-size: 25px;
+}
+.social-section .item h5{
+    font-size: 18px;
+}
+.social-section .item p{
+    color: gray;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.social-section .item a{
+    color: #337ab7;
+    text-decoration: none;
+    padding: 10px;
+}
+.social-section .item .socialicon{
+    width: 35px;
+    height: 25px;
+}
+/*      Feature Section    */
+.feature-section{
+    float: left;
+    width:100%;
+    background: #f5f5f5;
+    padding: 30px;
+}
+.feature-section h3{
+    text-align: center;
+    margin-bottom:60px;
+    color:gray;
+    font-size: 27px;
+}
+.feature-section .item{
+    width: 20%;
+    float: left;
+    text-align: center;
+    color:gray;
+}
+.feature-section .item h4{
+    font-size:27px;
+}
+.feature-section .feature{
+    width: 100%;
+    float:left;
+}
+.feature-section .item:nth-child(1){
+    font-family: sans;
+}
+.feature-section .item:nth-child(2){
+    font-family:italic;
+}
+.feature-section .item:nth-child(3){
+    font-family:cursive;
+}
+.feature-section .item:nth-child(4){
+    font-family:courier;
+}
+.feature-section .item:nth-child(5){
+    font-family:verdana;
+}
+/*    Download Section    */
+.download-section{
+    float: left;
+    width:100%;
+    background: #1b6d85;
+    padding: 30px;
+}
+.download-section .download .croudpara2{
+    color:#fff;
+    line-height: 30px;
+    margin-bottom: 25px;
+    font-size: 19px;
+}
+.download-section .download .btns2{
+    margin-bottom: 13px;
+}
+.download-section .download .btn-success img{
+    width: 41px;
+    height: 45px;
+    float: left;
+}
+.download-section .download .btn-success p{
+    float: right;
+    color: #fff;
+    margin: 0;
+}
+.download-section .download p{
+    color:gray;
+}
+.download-section .download .btn-success span{
+    font-size: 19px;
+}
+.download-section .download button{
+    background-color: #6666ff;
+    border: 1px solid #6666ff;
+    padding: 5px 7px;
+}
+.download-section .download button:hover{
+    background: none;
+    border: 1px solid #6666ff;
+}
+.download-section .download .btns2 button:hover p{
+    color:#fff;
+}
+/*     Footer Section   */
+.footer-section{
+    float: left;
+    width:100%;
+    background: #245269;
+    padding: 30px;
+}
+.footer-section .footer .item .appz{
+    color: #fff;
+    font-size: 25px;
+}
+.footer-section .footer .item{
+   padding: 0 40px; 
+}
+.footer-section .footer .item ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 17px;
+}
+.footer-section .footer .item ul li{
+    display: inline;
+    padding: 10px;
+}
+.footer-section .footer .item ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.footer-section .footer .item .tc{
+    color: gray;
+}
+.footer-section .footer .item .followus{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 13px;
+}
+.footer-section .footer .item .fa-facebook-f,
+.footer-section .footer .item .fa-instagram,
+.footer-section .footer .item .fa-twitter,
+.footer-section .footer .item .fa-youtube{
+    font-size: 30px;
+}
+
+.footer-section .footer .item a{
+    
+}
+.footer-section .footer .item i{
+    font-size: 20px;
+    color: #337ab7;
+    padding: 10px;
+}
+.footer-section .footer .item i:hover{
+    background-color: #00cccc;
+    color: #fff;
+}
+.footer-section .footer .item:last-child{
+    padding: 56px 0;
+}

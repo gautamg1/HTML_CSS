@@ -1,0 +1,63 @@
+.maincontainer{
+    float: left;
+    width:100%;
+}
+.maincontainer .notification{
+    float: left;
+    width:100%;
+    display: inline-flex;
+    border-bottom: 1px solid gray;
+}
+.maincontainer .notification .jioimage{
+    padding:10px 5px;
+}
+@media screen and (max-width:768px)
+{
+    .maincontainer .notification .jioimage{
+        padding:25px 5px;
+    }
+    .maincontainer .notification .jiocontent .item h2{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:400px)
+{
+    .maincontainer .notification .jiocontent .item h2{
+        font-size: 22px;
+    }
+    .maincontainer .notification .jiocontent .item .time{
+        font-size: 10px;
+    }
+    .maincontainer .notification .jiocontent .item .recharge{
+    text-align: left;
+}
+}
+.maincontainer .notification .jioimage img{
+    width: 80px;
+    height: 80px;
+}
+.maincontainer .notification .jiocontent{
+    display: inline-grid;
+    padding-left: 20px;
+    float: left;
+    width:100%;
+    object-fit: contain;
+}
+.maincontainer .notification .jiocontent .item h2{
+    float: left;
+    width:50%;
+}
+.maincontainer .notification .jiocontent .item .time{
+    float: right;
+    width: 50%;
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 15px;
+}
+.maincontainer .notification .jiocontent .item .recharge{
+    font-size: 19px;
+    color: darkgreen;
+    text-transform: capitalize;
+    padding-right: 15px;
+}

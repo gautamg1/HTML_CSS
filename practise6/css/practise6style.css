@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ecf0f1;
+}
+img{
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-transform: uppercase;
+    width:100px;
+    height:100px;
+    border-right: 3px solid activecaption;
+    animation: type 6s linear infinite;
+}
+@keyframes type{
+    0%{
+        width:0ch;
+    }
+    50%{
+        width:17ch;
+    }
+    100%{
+        width:0ch;
+    }
+}

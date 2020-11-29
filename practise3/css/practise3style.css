@@ -1,0 +1,152 @@
+button{
+    border-radius: 0 !important;
+}
+.maincontainer{
+    float: left;
+    width:100%;
+}
+.row{
+    margin: 0;
+    
+}
+.sidepanel{
+    background-color:#fff ;
+    padding: 0;
+    box-shadow: 2px 3px 2px grey;
+}
+.sidepanel h4{
+    padding-left: 20px;
+}
+.sidepanel ul{
+    list-style: none;
+    padding: 0;
+}
+.sidepanel ul li{
+    padding-left: 20px;
+}
+.sidepanel ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+.sidepanel ul li:hover{
+    background-color: #cccccc;
+}
+.html-part{
+    padding: 20px;
+}
+.html-part h1{
+    font-size: 6em;
+    color: #555555;
+    margin-bottom: 20px;
+}
+.html-part h4{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.lg{
+    color:mediumblue !important;
+    font-family: Consolas,"courier new";
+    font-size: 16px;
+}
+.element{
+    color:brown;
+    letter-spacing:0.5px;
+    font-size: 15px;
+    font-family: Consolas,"courier new";
+}
+.property-name{
+    color:#ff0000;
+    margin-left: 35px;
+    font-size: 16px;
+    font-family: Consolas,"courier new";
+}
+.property-value{
+    color:mediumblue;
+    font-size: 16px;
+    font-family: Consolas,"courier new";
+}
+.colon{
+    color:black;
+    font-size: 16px;
+    font-family: Consolas,"courier new";
+}
+.html-part .btn{
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    padding: 9px 17px;
+}
+.html-part .btn-success{
+    background-color: #555555;
+    border:none;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.hidden-xs .btn-success{
+    background-color:green;
+    border:none;
+    color: white;
+    padding: 8px 20px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.hidden-xs .btn-success:hover{
+    box-shadow: 1px 8px 5px gray;
+}
+.html-part .btn-success:hover{
+    background-color: #cccccc;
+    color:black;
+}
+.well{
+margin-top: 15px;
+box-shadow: 2px 3px 2px 1px grey;
+}
+.well h3{
+    margin-bottom: 20px;
+}
+ .innerdiv{
+    border-left: 3px solid green;
+    background-color:#fff;
+    padding:5px 5px 5px 10px;
+}
+.hidden-xs{
+    padding: 20px;
+}
+.css-part{
+    float: left;
+    width:83.33333334%;
+    background-color: #f5f5f5;
+    padding: 15px;
+}
+.css-ex{
+    background-color: #fff;
+    box-shadow: 2px 3px 2px grey;
+    padding: 10px 5px 10px 12px;
+    border-left: 3px solid green;
+}
+.css-part .btn-success{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.language{
+    padding:20px 35px;
+    float: left;
+}
+.box{
+    background-color: white;
+    text-align: center;
+    padding:10px;
+}
+.box h1{
+    margin: 5px 0 16px;
+}
+.box p{
+    margin: 0 0 20px;
+}
+.lang-part{
+    float: left;
+    width:83.33333334%;
+    background-color:#333333;
+    padding: 15px;
+}

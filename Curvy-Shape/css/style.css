@@ -1,0 +1,18 @@
+body{
+    font-family: tahoma;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background: url(../images/header-cover.jpg);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+@media screen and (max-width: 992px)
+{
+    .container .header-content .row{
+        display: inline-grid;
+    }
+}

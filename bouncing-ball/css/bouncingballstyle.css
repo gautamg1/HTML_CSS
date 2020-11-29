@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(to right,lightblue,whitesmoke,lightblue);
+}
+.container{
+    text-align: center;
+    margin-top:20%
+}
+.circle{
+    color:#ff6699;
+    font-size:43px;
+    display: inline-flex;
+    animation: popup 1.5s ease-in infinite;
+}
+.circle:nth-child(1){
+    animation-delay: .15s;
+}
+.circle:nth-child(2){
+    animation-delay:.35s;
+}
+.circle:nth-child(3){
+    animation-delay:.55s;
+}
+.circle:nth-child(4){
+   animation-delay: .75s;
+}
+.circle:nth-child(5){
+    animation-delay: .90s;
+}
+.circle:nth-child(6){
+    animation-delay: 1s;
+}
+.panel{
+background: rgb(29,27,5);
+width: 200px;
+height: 2px;
+border-radius: 2em;
+margin: auto;
+}
+@keyframes popup{
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(-50px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}

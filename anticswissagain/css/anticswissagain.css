@@ -1,0 +1,259 @@
+body{
+    background-color:black;
+    color:#393631;
+    
+}
+img{
+    max-width: 100%;
+}
+.maincontainer{
+    float: left;
+    width:100%;
+}
+.sidenav{
+    background-color:#269abc;
+    height:100%;
+    width:0;
+    padding-top: 60px;
+    position:fixed;
+    z-index: 999;
+    overflow-x: hidden;
+    top:0;
+    left:0;
+    transition: 1s;
+}
+.sidenav ul{
+    list-style: none;
+    padding-left: 10px;
+}
+.sidenav ul li{
+    padding: 10px;
+}
+.sidenav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.header{
+    float:left;
+    width:100%;
+}
+.header .headertop{
+    float: left;
+    width:100%;
+    background-color: #292929;
+    color:#fff;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.header .headertop .headerinfo{
+    float: right;
+}
+.header .headerbottom{
+    float: left;
+    width:100%;
+    background-color: #141414;
+}
+.header .headerinfo form{
+    float:left;
+    width:80%;
+    position: relative;
+}
+.header .headerinfo input[type="text"]{
+    float: left;
+    width:96%;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: #292929;
+    color:#fff;
+    font-size: 15px;
+    font-style: italic;
+}
+.header .headerinfo .searchicon{
+    position: absolute;
+    top:3.5px;
+    left:163px;  
+}
+.header .headerinfo .galleriabtn a{
+    background-color: #dd2000;
+    color:#fff;
+    padding: 6px 15px;
+    border-radius: 3px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.header .headerinfo .galleriabtn a:hover{
+    background-color: #910000;
+}
+.header .headerinfo .loginsignup{
+    background-color: #141414;
+    color:#fff;
+    padding: 6px 8px;
+    font-size: 14px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.header .headerinfo .loginsignup img{
+    margin-left: 5px;
+}
+.header .headerinfo .dropdown button{
+    background: none;
+    border:none;
+    padding: 0;
+}
+
+.header .dropdown-menu{
+    min-width:auto;
+    width:50px;
+    left:23px;
+}
+.header .dropdown-menu li img{
+   width:100%;
+}
+.header .dropdown-menu li a{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.navigationmenu{
+    float:left;
+    width:100%;
+    padding: 10px 0;
+}
+.navigationmenu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.navigationmenu ul li{
+    float:left;
+    padding: 5px 15px;
+}
+.navigationmenu ul li a{
+ text-transform: uppercase;
+ font-size: 18px;
+ letter-spacing: -0.6px;
+ color: #fff;
+ text-decoration: none;
+}
+.headerbottom .logo img{
+    float: left;
+    width:250px;
+    height:55px;
+}
+.headerbottom .navigationmenu ul .active a{
+    border-bottom: 2px solid #dd2000;
+    padding-bottom: 10px;
+}
+.navigationmenu ul li .active a{
+    border-bottom: 2px solid #dd2000;
+    padding-bottom: 10px;
+}
+.navigationmenu ul li a:hover{
+    border-bottom: 2px solid #dd2000;
+    padding-bottom: 10px;
+    color:#dd2000;
+}
+.homebanner{
+    float: left;
+    width:100%;
+    position: relative;
+}
+.homebanner .overlay{
+    height: 100%;
+    background:#000;
+    //filter: alpha(opacity=50);
+    opacity: 0.5;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+}
+.homebanner .textlayer{
+    float: left;
+    width:100%;
+    position: absolute;
+    top:30%; 
+    color:#fff;
+}
+.homebanner .textlayer h1{
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: serif;
+}
+.homebanner .textlayer p{
+    font-style: italic;
+    font-size: 36px;
+    font-family: serif;
+    padding-top: 20px;
+    letter-spacing: 1px;
+} 
+.homebanner .textlayer .border{
+background-color: #fff;
+height: 2px;
+width: 30%;
+margin: 0 auto;
+}
+.preziosidipinti{
+    float: left;
+    width:100%;
+    background-color: #141414;
+    padding: 40px 0;
+    color:#fff;
+}
+.preziosidipinti .border{
+    background-color: #dc2100;
+    width:20%;
+    height:2px;
+    margin: 0 auto;
+}
+.preziosidipinti h3{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.preziosidipinti p{
+    padding-top: 20px;
+}
+.preziosidipintiitem{
+    float: left;
+    width:100%;
+}
+.preziosidipintiitem .item{
+    padding: 0;
+    position: relative;
+}
+.preziosidipintiitem .item img{
+    width:100%;
+}
+.preziosidipintiitem .item .outerdiv{
+    width: 300px;
+    height:170px;
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    margin-left: -150px;
+    margin-top: -150px;
+    color:#fff;
+    opacity: 0.8;
+    transition: width 0.5s;
+    transition:height 0.5s;
+    transition:top 0.5s;
+}
+.preziosidipintiitem .item .innerdiv{
+    height:100%;
+    padding: 15px;
+}
+.preziosidipintiitem .item .innerdiv .innertext{
+   height:100%;
+   border:1px solid #fff;
+   text-align: center;
+   padding: 40px;
+}
+.preziosidipintiitem .item .outerdiv h3{
+   margin: 0;
+   font-weight: bold;
+   text-transform: uppercase;
+}

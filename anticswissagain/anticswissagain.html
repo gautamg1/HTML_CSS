@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>anticSwiss Home Page</title>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/anticswissagain.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <style>
+        
+ .sidenav{
+    background-color:#269abc;
+    height:100%;
+    width:0;
+    padding-top: 60px;
+    position:fixed;
+    z-index: 999;
+    overflow-x: hidden;
+    top:0;
+    left:0;
+    transition: 1s;
+}
+.sidenav ul{
+    list-style: none;
+    padding-left: 10px;
+}
+.sidenav ul li{
+    padding: 10px;
+    
+}
+.sidenav ul li a{
+    text-decoration: none;
+}
+.togglesidemenu{
+    cursor: pointer;
+    color: #fff;
+    position:absolute;
+    top:0;
+    left:85%;
+    text-decoration: none;
+}
+.sidenav a{
+    padding: 0;
+    text-decoration: none;
+    transition:0.3s;
+    color:#fff;
+    font-size:18px;
+    display: block;
+    text-transform: uppercase;
+}
+
+        
+    </style>
+    
+    </head>
+    <body style="background-color: #fff">
+     <div class="maincontainer">
+         
+         <div id="mysidenav" class="sidenav">
+             <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times;</a>
+                <ul>
+                    <li><a href="category.html">Collezione</a></li>
+                    <li><a href="#">novità</a></li>
+                    <li><a href="product_list.html">antiquari</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="about.html">Chi siamo</a></li>
+                    <li><a href="contact.html">contatti</a></li>
+                </ul>
+         </div>
+         
+         
+         
+         
+         
+        <div class="header">
+            <div class="headertop">
+                <div class="container">
+                    <div class="col-md-9 headerinfo">
+                        <div class="item col-md-4 text-center">
+                            <form>
+                                <input type="text" placeholder="Cerca">
+                                <img class="searchicon" src="images/site-search-icon.png">
+                            </form>
+                        </div>
+                        <div class="item col-md-4 text-center galleriabtn">
+                            <a href="#">SEI UN ANTIQUARIO? ISCRIVITI</a>
+                        </div>
+                        <div class="item col-md-2 text-center username">
+                            <a class="loginsignup" href="#">accedi<img src="images/icon-accedi.jpg"></a>
+                        </div>
+                        <div class="item col-md-2 text-center lang">
+                            <div class="dropdown">
+                                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                    <img src="images/flag.jpg">
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><img src="images/flag.jpg"></a></li>
+                                    <li><a href="#"><img src="images/flag.jpg"></a></li>
+                                    <li><a href="#"><img src="images/flag.jpg"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="headerbottom">
+                <div class="container">
+                    <div class="col-md-12 text-center">
+                        <div class="logo col-md-3">
+                            <span class="togglesidemenu" onclick="opennav()">&#9776; MENU</span>
+                            <a href="#"><img src="images/logo.png"></a>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="navigationmenu">
+                                <ul>
+                                    <li class="active"><a href="category.html">Collezione</a></li>
+                                    <li><a href="#">novità</a></li>
+                                    <li><a href="product_list.html">antiquari</a></li>
+                                    <li><a href="#">blog</a></li>
+                                    <li><a href="about.html">Chi siamo</a></li>
+                                    <li><a href="contact.html">contatti</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="homebanner">
+             <div class="overlay"></div>
+             <img src="images/homebanner.png">
+             <div class="textlayer text-center">
+                 <div class="container">
+                     <div class="col-md-12 text-center">
+                         <h1>ANTIQUARIATO E ANTICHITÀ</h1>
+                         <div class="border"></div>
+                         <p>Vendita oggetti antichi e arredamenti di pregio</p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="preziosidipinti">
+             <div class="container">
+                 <div class="col-md-12 text-center">
+                     <h3>I preziosi dipinti e mobili antichi dalle migliori gallerie di antiquariato</h3>
+                     <div class="border"></div>
+                     <p>Scopri AnticSwiss, il portale delle gallerie di antiquariato. In vendita online potrai trovare
+                            arredamenti rari e antichi, antiquariato e dipinti antichi scelti per te dalle nostre gallerie
+                            selezionate. AnticSwiss ospita esperti Antiquari <br> specializzati da tutto il Mondo,
+                            per garantirti una selezione di articoli di alto antiquariato certificato e garantito.
+                            <br>
+                            Ti accompagneremo nel percorso di acquisto, guidandoti nelle varie epoche, dalla mobilia
+                            roccoco al Luigi XV, dal neoclassico al direttorio, passando per l'impero ed il mobile boulle
+                            Napoleone III, per aiutarti a fare sempre la scelta più adatta investendo al
+                            meglio su articoli di pregio e di alto valore storico artistico.
+                     </p>
+                 </div>
+             </div>
+         </div>
+         <div class="preziosidipintiitem">
+             <div class="item col-md-4">
+                 <img src="images/preziosidipintiitem1.png">
+                 <div class="outerdiv">
+                     <div class="innerdiv">
+                         <div class="innertext">
+                             <h3 class="hidetext">I nostri antiquari</h3>
+                             <div class="hoverdiv">
+                                 <h4>Focus Gallery:</h4>
+                                    <h3>I nostri antiquari</h3>
+                                    <div class="border"></div>
+                                    <p>Visita la galleria</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="item col-md-4">
+                 <img src="images/preziosidipintiitem2.png">
+                 <div class="outerdiv">
+                     <div class="innerdiv">
+                         <div class="innertext">
+                             <h3 class="hidetext">Ultimi arrivi</h3>
+                             <div class="hoverdiv">
+                                 <h4>Focus Gallery:</h4>
+                                    <h3>Ultimi arrivi</h3>
+                                    <div class="border"></div>
+                                    <p>Visita la galleria</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="item col-md-4">
+                 <img src="images/preziosidipintiitem3.png">
+                 <div class="outerdiv">
+                     <div class="innerdiv">
+                         <div class="innertext">
+                         <h3 class="hidetext">Antiquités Garnier</h3>
+                           <div class="hoverdiv">
+                                <h4>Focus Gallery:</h4>
+                                <h3>Antiquités Garnier</h3>
+                                <div class="border"></div>
+                                <p>Visita la galleria</p>
+                           </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            function opennav(){
+            document.getElementById("mysidenav").style.width="260px";
+            }
+            function closenav(){
+            document.getElementById("mysidenav").style.width=0;
+            }
+       </script>
+    </body>
+</html>

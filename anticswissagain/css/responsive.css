@@ -1,0 +1,1092 @@
+@media (min-width: 320px) and (max-width: 359px) {
+    .collectionitem {
+        padding: 20px 10px 20px 10px !important;;
+    }
+    .collectionitem .item .outerdiv {
+        width: 140px !important;
+        height: 90px !important;
+        left: 80% !important;
+        top: 108% !important;
+    }
+    .collectionitem .item .outerdiv:hover {
+        width: 170px !important;
+        height: 120px !important;
+        left: 74% !important;
+        top: 99% !important;
+    }
+    .collectionitem .item .outerdiv h3 {
+        font-size: 12px !important;
+    }
+    .collectionitem .item .innertext {
+        padding: 15px 10px !important;
+    }
+    .collectionitem .item .innertext .hoverdiv .border {
+        margin-top: 5px;
+    }
+    .collectionitem .item .innertext .hoverdiv p {
+        font-size: 12px;
+    }
+    .bloglisting .item .outerdiv h3 {
+        font-size: 16px !important;
+    }
+    .bloglisting .item .innertext .border {   
+        margin-bottom: 5px;
+    }
+    .bloglisting .item .innertext p {
+        font-size: 13px !important;
+        line-height: 14px !important;
+    }
+    .bloglisting .item .centerdiv{
+        top: 5% !important;
+    }
+    .subscribeform form input[type="button"] {
+        font-size: 17px !important;
+        padding: 7px 15px !important;
+    }
+    .dashboardpage .otheruseroptions ul {
+        padding-left: 30px;
+    }
+}
+@media (min-width: 360px) and (max-width: 380px) {
+    .collectionitem .item .outerdiv {
+        width: 140px !important;
+        height: 90px !important;
+        left: 75% !important;
+        top: 100% !important;
+    }
+    .collectionitem .item .outerdiv h3 {
+        font-size: 12px !important;
+    }
+    .collectionitem .item .innertext {
+        padding: 30px 10px !important;
+    }
+    .collectionitem .item .innertext .hoverdiv .border {
+        margin-top: 5px;
+    }
+    .collectionitem .item .innertext .hoverdiv p {
+        font-size: 12px;
+    }
+    .collectionitem .item .outerdiv:hover {
+        width: 170px !important;
+        height: 120px !important;
+        left: 72% !important;
+        top: 92% !important;
+    }
+    .bloglisting .item .outerdiv h3 {
+        font-size: 22px;
+    }
+    .bloglisting .item .innertext p {        
+        line-height: 18px;
+    }
+    .bloglisting .item .centerdiv{
+        top: 5% !important;
+    }
+}
+
+
+@media (min-width: 361px) and (max-width: 400px) {
+    .collectionitem .item .outerdiv {
+        width: 200px !important;
+        height: 120px !important;
+        left: 67% !important;
+        top: 90% !important;
+    }  
+    .collectionitem .item .outerdiv h3 {
+        font-size: 16px;
+    }
+    .collectionitem .item .outerdiv:hover {
+        width: 230px !important;
+        height: 145px !important;
+        left: 61% !important;
+        top: 86% !important;
+    }
+    .bloglisting .item .innertext p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .bloglisting .item .outerdiv h3{
+        font-size: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .headerinfo .galleriabtn{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .headerinfo .dropdown{
+        margin-top: 20px !important;
+        margin: 0 auto;
+        width: 30%;
+    }
+    .headertop .headerinfo form{
+        width: 100%;
+    }
+    .logo img{
+        width: 70%;
+    }
+    .homebanner .textlayer h1{
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+    .homebanner .textlayer p{
+        padding-top: 0;
+    }
+
+
+    .preziosidipintiitem .item .outerdiv{
+        top:70%;
+    }
+    .preziosidipintiitem .item .outerdiv:hover{
+        top:65%;
+    }
+    .collezionelisting{
+        padding: 0;
+    }
+    .blogdellantiquario{
+        padding: 50px 15px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    .viewallblog a{
+        padding: 10px 40px;
+    }
+    .vendisu .innerdiv input[type="text"]{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .socialicon li{
+        padding: 0 5px;
+    }
+    .socialicon{
+        padding-right: 0;
+    }
+    .copyright div{
+        text-align: center;
+    }
+    .footermenu{
+        padding-top: 0;
+    }
+    .collezionemenu ul li{
+        width: 100%;
+    }
+
+
+    .headertop .headerinfo .item:first-child{
+        width: 100%;
+    }
+    .headertop .headerinfo .item.galleriabtn{
+        width: 100%;
+    }
+    .headertop .headerinfo .item{
+        width: 50%;
+        padding-right: 0;
+    }
+    .headertop .headerinfo .item:last-child{
+        width: 50%;
+    }
+    .headertop .headerinfo .item .dropdown{
+        margin-top: 0 !important;
+    }
+
+
+    .collezionelisting .pagination ul li{
+        padding: 0px;
+    }
+    .collezionelisting .pagination ul li a{
+        font-size: 20px;
+    }
+    .collectionitem .item .outerdiv {
+        width: 210px;
+        height: 140px;
+        left: 64%;
+        top: 80%;
+    }    
+    .collectionitem .item .outerdiv h3{
+        font-size: 20px;
+    }
+    .collectionitem .item .innertext {
+        padding: 30px 10px;
+    }
+    .collectionitem .item .outerdiv:hover {
+        top: 80%;
+    }
+    .collectionitem .item .outerdiv:hover {
+        width: 245px;
+        height: 150px;
+        left: 58%;
+        top: 80%;
+    }
+
+    .contactform form .formfield .halffield{
+        width: 100%;
+        float: left;
+    }
+    .contactform form .formfield .halffield:first-child{
+        padding-bottom: 25px;
+    }
+    .mauris .textlayer h1{
+        padding-top: 0;
+    }
+    .gallery .bloginner{
+        padding: 0px;
+    }
+    .gallerydata .gallerydetail{
+        padding: 20px 0px 0px 0px;
+    }
+    .gallerydata .gallerydetail .viewallblog{
+        padding: 20px 10px;
+    }
+    .gallerydata .gallerytitle{
+        font-size: 26px;
+    }
+    .gallerydata .gallerydetail .viewallblog a{
+        font-size: 15px;
+        padding: 10px 24px;
+    }
+    .gallery{
+        padding: 0px 15px;
+    }
+    .gallerydata{
+        padding: 20px 0px;
+    }
+
+
+    .ulivigalleryinfo .addressinfos li{
+        width: 100%;
+    }
+    .ulivigalleryinfo .socialicons li a i {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+    }
+    .ulivigalleryinfo .socialicons li{
+        padding: 0 3px;
+    }
+
+    .ulivigalleryinfo .left{
+        left: 20px !important;
+    }
+    .ulivigalleryinfo .userimage{
+        width: 40%;
+        max-width: 40%;
+        min-width: 40%;
+        top:-60px !important;
+        left: -20px !important;
+    }
+    .ulivigalleryinfo .button{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .ulivigallery .heading{
+        font-size: 14px !important;
+    }
+
+    .articoliinevidenza .altrioggettiinner{
+        padding: 0 25px;
+    }
+    .bloginner .firstblog .blogcontent{
+        padding: 0px 15px;
+    }
+    .bloglisting{
+        padding-top: 10px;
+    }
+    .bloglisting .item .centerdiv{
+        top: 10%;
+    }
+
+    .blogssectiondetail .blogpart1 {
+        padding-right: 15px;
+    }
+    .singleblogpage {    
+        padding: 0px 20px;
+    }
+    .recentpost .item{
+        margin-bottom: 15px;
+    }
+    .subscribeform form{
+        width: 100%;
+    }
+
+    .subscribeform form .formfield .halffield{
+        width: 100%;
+        float: left;
+    }
+
+    .subscribeform form .formfield .halffield:first-child {
+        padding-bottom: 25px;
+    }
+    .subscribeform form .formfield.terms span{
+        padding-left: 0px;
+    }    
+    .subscribeform form input[type="button"]{
+        font-size: 20px;
+        padding: 8px 16px;
+    }
+
+    .subscribeform .step2 .common-margin{
+        margin-bottom: 10px;
+        padding-right: 0px;
+    }
+    .subscribeform .step2 .formfield{
+        padding-bottom: 0px;
+    }
+    .subscribeform .step2 .row3secondhalffield{
+        padding-left: 0px;
+    }
+
+    .subscribeform .step2 .firsttitle{
+        padding-left: 15px;
+    }
+
+    .subscribeform form .firstimg .uploadgalleryimg .imgdisplay .imagedata{
+        width: 100%;
+    }
+    .subscribeform .paypaltras .paypalimg{
+        width: 100%;
+    }
+    .subscribeform .banktransfertras .banktransferimg{
+        float: left;
+        width: 100%;
+    }
+    .dashboardpage .pagecontent .vendisu .item:first-child{ 
+        float: left;
+        margin-bottom: 10px;        
+    }
+
+}
+@media (max-width: 400px) {
+    .homebanner .textlayer h1{
+        font-size: 16px !important;
+        margin-top: 5px;
+        padding-bottom: 5px;
+    }
+    .vendisu .innerdiv {        
+        padding: 30px 40px 40px 40px;
+    }
+    .vendisu .innerdiv .acceptprivacy span {   
+        font-size: 12px;    
+    }
+    .mauris .textlayer{
+        display: block;
+    }
+    .mauris .textlayer h1{
+        font-size: 10px !important;
+        padding-top: 0;
+    }
+    .aboutpage .button a {   
+        padding: 10px 30px;    
+    }
+    .gallerydata .gallerydetail .viewallblog a{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .gallery .blogouter{
+        padding: 15px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 550px) {
+    .slider-wrap .item .innertext{
+        padding: 40px 10px;
+    }
+    .collezionemenu ul li{
+        float: left;
+        width: 100%;
+    }
+    .mauris .textlayer h1{
+        padding-top: 0;
+    }
+
+}
+@media (min-width: 500px) and (max-width: 767px) {
+    .footer .item {
+        width: 50%;
+        float: left;
+        height: 275px;
+        overflow: hidden;
+    }
+    .socialicon{
+        padding-right: 0;
+    }
+    .socialicon li{
+        padding: 0 10px;
+    }  
+    .blogssectiondetail .blogpart1 {
+        padding-right: 15px;
+    }
+    .singleblogpage {      
+        padding: 0px 35px;
+    }
+    .item .nextblog{
+        width: 100%;
+    }
+    .subscribeform form {
+        width: 80%;
+    }
+    .subscriptionpopup .modal-dialog{
+        margin-top: 10px;
+    }
+    .dashboardpage .otheruseroptions ul {      
+        margin: 0 auto;
+        width: 45%;
+        padding-left: 25px;
+    }
+
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .header .headertop .headerinfo{
+        padding: 0;
+    }
+    .headertop .headerinfo .item{
+        float: left;
+        width: 25%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .headertop .headerinfo .item:first-child{
+        width: 100%;
+        float: left;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    .headertop .headerinfo .item.galleriabtn{
+        width: 55%;
+        padding-right: 0;
+    }
+    .headertop .headerinfo .item:last-child{
+        width: 20%;
+    }
+
+    .headerinfo .galleriabtn a{
+        float: left;
+    }
+    .gallerydata .gallerydetail,
+    .gallerydata{
+        padding: 20px 0px;
+    }
+    .gallerydata .gallerydetail .viewallblog a{
+        font-size: 18px;
+    }
+    .bloglisting .item .centerdiv {
+        top: 10%;
+    }
+    .subscribeform .step2 .common-margin{
+        margin-bottom: 10px;
+        padding-right: 0px;
+    }
+    .subscribeform .step2 .formfield{
+        padding-bottom: 0px;
+    }
+    .subscribeform .step2 .row3secondhalffield{
+        padding-left: 0px;
+    }
+
+    .subscribeform .step2 .firsttitle{
+        padding-left: 15px;
+    }        
+
+    .subscribeform form .firstimg .uploadgalleryimg .imgdisplay .imagedata{
+        width: 100%;
+    }
+    .subscribeform .paypaltras .paypalimg{
+        width: 100%;
+    }
+    .subscribeform .banktransfertras .banktransferimg{
+        float: left;
+        width: 100%;
+    }
+    .dashboardpage .pagecontent .vendisu .item:first-child{ 
+        float: left;
+        margin-bottom: 10px;        
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header .headertop .headerinfo{
+        width: 100%;
+    }
+    .headertop .headerinfo .item:first-child{
+        width: 25%;
+    }
+    .headertop .headerinfo .item.galleriabtn{
+        width: 38%;
+    }
+    .headertop .headerinfo .item.username{
+        width: 20%;
+    }
+    .headertop .headerinfo .item.lang{
+        width: 10%;
+    }
+    .collectionitem{
+        padding: 35px 20px 35px 20px;
+    }
+    .collectionitem .item .outerdiv h3{
+        font-size: 18px;       
+    }
+    .collectionitem .item .outerdiv {
+        width: 200px;
+        height: 130px;
+        left: 64%;    
+        /*        top: 85% !important;*/
+    }
+    .collectionitem .item .innertext {
+        padding: 30px 10px;
+    }
+    .collectionitem .item .outerdiv:hover {
+        width: 280px;
+        height: 160px;
+        left: 53%;
+        top: 80% !important;
+    }
+    .collezionemenu ul li {    
+        padding: 0 20px;
+        margin-bottom: 5px;
+    }
+    .gallerydata .gallerydetail{
+        padding-top : 0px; 
+    }
+    .gallerydata .gallerydetail .viewallblog {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    .gallerydata .gallerydetail .viewallblog a{
+        font-size: 18px;
+    }
+    .gallerydata .gallerytitle{
+        font-size: 28px;
+    }
+    .gallerydata{
+        padding: 40px 30px 20px 30px;
+    }
+    .subscribeform form .secondimg{
+        float: none;       
+    }
+    .subscribeform .countrycodedropdown{
+        padding: 8px;
+        //width: 125px;
+    }
+    .subscribeform .substep2 {
+        width: 75%;
+    }
+    .subscribeform .substep2 .firsthalffield,
+    .subscribeform .substep2 .row2firsthalffield,
+    .subscribeform .substep2 .row4halffield{
+        padding-right: 15px;
+    } 
+    .subscribeform .step2 .imagemaindiv .firstimg{
+        padding-left: 15px;
+    }
+    .subscribeform .step2 .imagemaindiv .firsttitle h4,
+    .subscribeform .step2 .imagemaindiv .secondtitle h4{
+        font-size: 14px;
+    }
+    .dashboardpage .otheruseroptions ul{
+        padding-left: 15px;
+    }
+    .dashboardpage .otheruseroptions ul li a .menuicons{
+        padding-right: 15px;
+    }
+    .dashboardpage .pagecontent{
+        padding: 15px 30px;
+    }
+    .dashboardpage .pagecontent .premium{        
+        padding: 15px 0px 30px 0px;
+    }
+    .dashboardpage .pagecontent .premium .premiumdetails{
+        padding: 15px 10px;
+    }
+    .dashboardpage .pagecontent h2{
+        padding-bottom: 0px;
+    }
+    .dashboardpage .otheruseroptions{
+        padding: 70px 0px;
+    }
+    .dashboardpage .pagecontent .vendisu .item:first-child{
+        padding-right: 0px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .dashboardpage .pagecontent .vendisu .item:last-child{
+        padding-left: 0px;
+        width: 100%;    
+    }
+    .dashboardpage .pagecontent .vendisu .item .innerdiv,
+    .dashboardpage .pagecontent .vendisu .item:last-child .innerdiv{
+        padding: 20px 10px
+    }
+
+    .dashboardpage .pagecontent .vendisu .item .innerdiv .heightfixdiv{
+        min-height: 100px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .header .headertop .headerinfo{
+        width: 100% !important;
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 990px) {
+    .preziosidipintiitem .item .outerdiv{
+        top:70%;
+    }
+    .preziosidipintiitem .item .outerdiv:hover{
+        top:65%;
+    }
+}
+@media (max-width: 600px) {
+    .viewallblog a{
+        padding: 10px 40px;
+    }
+    .productdetails .socialicons{
+        float: left;
+        width: 100%;
+    }
+    .productdetails .socialicons.print{
+        float: left;
+        width: 100%;
+    }
+    .galleryslider{
+        float: left;
+        width: 100%;
+    }
+    .productdetails .right .productinfolist{
+        padding-left: 0;
+    }
+    .productdetails .productbuttons{
+        width: 100%;
+    }
+    .productdetails .right{
+        float: left;
+    }
+    .productdetails .socialicons li{
+        padding: 5px;
+    }
+    .productlistheading h1{
+        font-size: 26px;
+    }
+    .productlistheading h4{
+        font-size: 26px;
+    }
+    .dashboardpage .pagecontent .vendisu .item .innerdiv .artifirstdiv, 
+    .dashboardpage .pagecontent .vendisu .item .innerdiv .artiseconddiv{
+        width: 100%;
+    }
+    .dashboardpage .pagecontent .vendisu .item .innerdiv .heightfixdiv{
+        min-height: 100px;
+    }
+    .dashboardpage .pagecontent .vendisu .item .innerdiv .artifirstdiv{
+        margin-bottom: 30px;
+    }
+
+
+}
+@media (max-width: 767px) {
+    .homebanner .textlayer h1{
+        font-size: 20px;
+    }
+    .homebanner .textlayer p{
+        font-size: 15px;
+    }
+    .homebanner .textlayer{
+        top:5%;
+    }
+    .slider-wrap .sa-left{
+        left: -25px;
+    }
+    .slider-wrap .sa-right{
+        right: -25px;
+    }
+    .vendisu .item:first-child{
+        padding-right: 0;
+    }
+    .vendisu .item:last-child{
+        padding-left: 0;
+    }
+    .collezionesearching select{
+        margin-bottom: 15px;
+    }
+    .collezionemenu ul li{
+        padding: 0 10px;
+    }
+    .galleryslider{
+        float: left;
+        width: 100%;
+    }
+
+    .veditutti span {
+        position: inherit;
+        /* float: left; */
+        /* width: 100%; */
+        top: 0;
+        right: 0;
+    }
+    .otherblog .item{
+        border-top: 2px solid;
+        padding-top: 15px;
+    }
+
+    .vendisu .innerdiv input[type="text"]{
+        width: 100%;
+    }
+    .collectionitem{
+        padding: 25px 15px 25px 15px;
+    }
+    .vendisu .innerdiv input[type="submit"]{
+        margin-top: 5px;
+    }
+    .collezionesearching select{
+        margin-bottom: 10px;
+    }
+    .collezionelisting .itemlist p.desc {
+        padding: 10px 0px;    
+        font-size: 16px;    
+    }
+    .slider-wrap ul li p.desc{
+        padding: 10px 0px;    
+        font-size: 16px;
+    }
+
+    .contactform .left{
+        padding-right: 15px;
+    }
+    .contactform .right{
+        padding-left: 15px;
+    }
+
+
+    .galleryinfo,
+    .ulivigallery .heading{
+        padding-left: 0; 
+    }
+    .ulivigalleryinfo{
+        padding-left: 0px;
+        padding-top: 80px;
+    }
+    .ulivigalleryinfo .addressinfos,
+    .ulivigalleryinfo .socialicons{
+        padding-left: 0;
+    }
+    .ulivigalleryinfo .socialtitle{
+        margin-left: 0;
+    }
+
+    .ulivigalleryinfo .userimage {
+        border-radius: 50%;
+        border: 5px solid #fff;
+        position: absolute;
+        top: -60px;
+        left: -60px;
+    }
+
+    .ulivigalleryinfo .left{
+        left: 100px;
+        padding-bottom: 20px;
+    }
+    .ulivigallery .heading{
+        font-size: 20px;
+    }
+    .gallerybutton{
+        padding-bottom: 30px;
+    }
+
+    .articoliinevidenza .contactform{
+        padding-top: 0;
+    }
+    .articoliinevidenza .contactform .left{
+        padding-bottom: 20px;
+    }
+    .bloginner .firstblog .blogcontent{
+        padding: 0px 15px;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 700px) {
+    .bloglisting .item .innertext p{
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .bloglisting .item .outerdiv h3{
+        font-size: 20px;
+    }
+    .bloglisting .item .centerdiv {
+        top: 6% !important;
+    }
+    .bloglisting .itemlist{
+        padding: 0px 10px !important;
+    }
+    .bloglisting .item .innertext .border{
+        margin-bottom: 5px;
+    }
+    .dashboardpage .pagecontent .premium .premiumdetails{
+        padding: 20px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .collezionelisting .itemlist{
+        width: 50%;
+    }
+    /*    .bloglisting .itemlist{
+            width: 100%;
+        }*/
+    .collezionelisting{
+        padding: 40px 0;
+    }
+    .galleryslider{
+        float: left;
+        width: 100%;
+    }
+    .vendisu .innerdiv input[type="text"]{
+        width: 100%;
+    }
+    .vendisu .item:last-child .innerdiv {
+        padding-bottom: 33px;
+    }
+    .vendisu .innerdiv {   
+        padding: 30px 50px 100px 50px;
+    }
+    .vendisu .innerdiv input[type="submit"]{
+        margin-top: 5px;
+    }
+    .singleblogpage .blogssectiondetail p{
+        font-size: 16px;
+    }
+    .blogssectiondetail .blogpart1{
+        padding-right: 15px;
+    }
+    .dashboardpage .pagecontent .vendisu .item .innerdiv .heightfixdiv {
+        min-height: 100px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .homebanner .textlayer{
+        top:10%;
+    }
+    .galleryslider{
+        float: left;
+        width: 100%;
+    }
+    .collezionelisting .itemlist p.desc {
+        padding: 10px 0px;    
+        font-size: 16px;    
+    }
+    .slider-wrap ul li p.desc{
+        padding: 10px 0px;    
+        font-size: 16px;
+    }
+    .homebanner .textlayer p{
+        font-size: 25px;
+    }
+    .slider-wrap .sa-left, .slider-wrap .sa-left1, .slider-wrap .sa-left2, .slider-wrap .sa-left3{
+        left: -30px;
+    }
+    .slider-wrap .sa-right, .slider-wrap .sa-right1, .slider-wrap .sa-right2, .slider-wrap .sa-right3{
+        right: -30px;
+    }
+    .singleblogpage {       
+        padding: 0px 25px;
+    }
+
+
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .blogtitle{
+        font-size: 20px;
+    }
+    .footer .item:first-child{
+        text-align: center;
+    }
+    .collectionitem .item .outerdiv {   
+        top: 85% !important;
+    }
+    .collezionesearching select{
+        margin-bottom: 10px;
+    }
+    .gallerylisting .item .outerdiv h3{
+        font-size: 28px;
+    }
+    .gallerylisting .item .outerdiv p{
+        font-size: 22px;
+    }
+
+    .galleryinfo{
+        padding-left: 50px;
+    }
+    .ulivigalleryinfo .addressinfos,
+    .ulivigalleryinfo .socialicons{
+        padding-left: 0;
+    }
+    .ulivigalleryinfo .socialtitle{
+        margin-left: 0;
+    }
+    .ulivigalleryinfo .addressinfos li{
+        font-size: 18px;
+    }
+    .ulivigalleryinfo .socialicons li a i {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+    }
+    .ulivigalleryinfo .socialicons li{
+        padding: 0 10px;
+    }
+    .ulivigallery .heading{
+        font-size: 24px;
+    }
+    .ulivigalleryinfo .button{
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .bloginner .firstblog .blogcontent {
+        padding: 0px 15px;
+    }
+    .bloglisting .item .centerdiv{
+        top: 8%;
+    }
+    .bloglisting .item .innertext p{
+        font-size: 20px !important;
+    }
+    .blogssectiondetail .blogpart1 {
+        padding-right: 35px;
+    }
+    .headerinfo .galleriabtn a{
+        padding: 6px;
+    }
+    .subscribeform form {
+        width: 80%;    
+    }
+    .dashboardpage .otheruseroptions {
+        padding: 75px 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    .firstblog > div{
+        width: 100%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 960px) {
+    .collectionitem .item .outerdiv {   
+        top: 80% !important;
+    }
+    .collectionitem .item .outerdiv:hover {    
+        top: 75% !important;
+    }
+    .vendisu .item:last-child .innerdiv {
+        padding-bottom: 69px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .altrioggettiouter{
+        float: left;
+        width: 100%;
+    }
+}
+@media (min-width: 991px) and (max-width: 1024px){
+    .gallerylisting .item .outerdiv h3{
+        font-size: 16px;
+    }
+    .gallerylisting .item .outerdiv p{
+        font-size: 14px;
+    }
+
+    .bloginner .firstblog .blogcontent .blogtitle{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .bloginner .firstblog .blogcontent p{
+        line-height: 20px;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .bloglisting .item .outerdiv h3{
+        font-size: 18px;
+    }
+    .bloglisting .item .innertext p{
+        font-size: 16px !important;
+        line-height: 18px;
+    }
+    .bloglisting .item .centerdiv{
+        top: 10%;
+    }
+    .bloginner .firstblog .blogcontent{
+        padding: 0px 40px;
+    }
+    .rightsidebar .followus .socialdata li{
+        padding: 0px;
+    }
+    .rightsidebar .followus ul li i {
+        font-size: 20px;
+        padding: 8px;       
+        height: 35px;
+        width: 35px;        
+    }
+
+
+
+} 
+@media (min-width: 991px) and (max-width: 1200px) {
+    .navigationmenu ul li a{
+        font-size: 15px;
+    }
+    .socialicon li{
+        padding: 0 5px;
+    }
+    .collectionitem .item .outerdiv h3{
+        font-size: 15px;       
+    }
+    .collectionitem .item .outerdiv {
+        width: 170px;
+        height: 120px;
+        left: 72%;
+        top: 92% !important;
+    }
+    .collectionitem .item .innertext {
+        padding: 25px 8px;
+    }
+    .collectionitem .item .outerdiv:hover{
+        width: 210px !important;
+        height: 130px;
+        left: 65%;
+        top: 90% !important;
+    }
+    .collectionitem .item .outerdiv:hover .innertext {
+        padding: 15px;
+    }
+    .collectionitem .item .innertext .hoverdiv .border {
+        margin-top: 10px;
+    }
+    .collectionitem .item .innertext .hoverdiv p{
+        font-size: 14px;
+    }
+    .ulivigalleryinfo .button{
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    .ulivigallery .heading{
+        font-size: 30px;
+    }
+
+}
+@media (min-width: 991px) and (max-width: 1150px) {
+    .preziosidipintiitem .item .outerdiv:hover{
+        width: 335px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .slider-wrap .item .innertext{
+        padding: 30px 10px;
+    }
+}

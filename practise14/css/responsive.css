@@ -1,0 +1,151 @@
+@media screen and (max-width:1200px)
+{
+    .bannerform .item{
+        display: inline-grid;
+        width:189px;
+    }
+    .bannerform .flname input{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:992px){
+    .bannercontent{
+        margin-right: 0px;
+    }
+    .banner-data{
+        margin: 0;
+    }
+    .insurance .box .boxinside
+     {
+        display: inline-flex;
+        text-align: left;
+        background: gainsboro;
+        padding: 10px 10px;
+     }
+     .insurance .box .boxoutside
+     {
+      padding: 10px 10px;
+     }
+     .car-accident .car-accident-content
+    {
+        padding-right: 100px;
+        padding-left: 100px;
+   }
+   .success-stories .success-stories-content h2{
+    margin-bottom: 14px;
+    font-size: 24px;
+    }
+    .success-stories .success-stories-content p{
+   line-height: 23px;
+   }
+   .success-stories .success-stories-content
+    {
+        padding-right: 100px;
+        padding-left: 100px;
+   }
+   .collision-law .collision-law-content{
+    padding-right:0px;
+    padding-left:0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+   }
+   .collision-law .collision-law-content p{
+       text-align: justify;
+   }
+   .consultation a{
+    width: 25%;
+   }
+}
+@media screen and (max-width:768px){
+    .banner-data{
+        display: none;
+    }
+    .logos{
+        text-align: center;
+    }
+    .logos p{
+        width:240px;
+        text-align: center;
+        float: left;
+        padding: 15px;
+    }
+    .logos img{
+        width:60px;
+        height:60px;
+        padding: 10px;
+        float: right;
+    }
+    .income .box{
+        display: inline;
+    }
+    .insurance .box{
+     display: inline;  
+    }
+    .insurance .box .boxinside{
+        
+        height:140px;
+    }
+    .car-accident .car-accident-content
+    {
+        padding-right: 20px;
+        padding-left: 20px;
+        line-height: 22px;
+   }
+   .success-stories{
+    height:100vh;
+    }
+    .success-stories .success-stories-content{
+    padding: 0 20px;
+    }
+    .success-stories .success-stories-content .getintouch a{
+    width:150px;
+    margin-bottom: 10px;
+}
+.success-stories .success-stories-content .getintouch{
+    display: inline-grid;
+    text-align: center;
+    justify-content: center;
+}
+.nocost .getintouch a{
+    padding: 15px 18px;
+}
+    .consultation a{
+    width: 40%;
+    padding: 10px 2px;
+   }
+   .consultation a .number{
+    font-size: 10px;
+    padding: 0;
+    }
+    .consultation i{
+    font-size: 20px;
+    padding: 3px;
+    }
+    .steps .box{
+    display: inline-grid;
+    }
+    .collision-law .collision-law-content .collision-law-rules{
+    display: inline-grid;
+   }
+}
+@media screen and(max-width:500px)
+{
+    .logos{
+        text-align: center;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .insurance .box .boxinside
+     {
+        display: inline-flex;
+        text-align: left;
+        background: gainsboro;
+        padding: 10px 10px;
+     }
+     .insurance .box .boxoutside
+     {
+      padding: 10px 0;
+     }
+}

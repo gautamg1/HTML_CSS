@@ -1,0 +1,473 @@
+body{
+    font-family: Verdana,sans-serif;
+    line-height: 1.5;
+}
+
+button{
+    border-radius: 0 !important;
+}
+.maincontainer{
+    float: left;
+    width:100%;
+    height: 100%;
+}
+.header .item{
+    padding: 0;
+}
+.header-top{
+    float:left;
+    width:100%;
+}
+.header-top a{
+    font-size: 38px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60px;
+    color: darkslategray;
+    padding-left: 7px;
+    font-family: initial;
+}
+.header-top .dotcom{
+    color:#4caf50;
+}
+.header-top h2{
+    font-size: 16px;
+    float: right;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 15px;
+    margin-bottom: 0
+}
+.sidenav{
+    width: 0;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    z-index: 9999;
+    transition: 0.4s;
+}
+.togglesidemenu{
+    color: #fff;
+    font-size: 30px;
+    padding: 8px;
+    position: relative;
+    top: 5px
+}
+
+.header .header-bottom{
+    float: left;
+    width:100%;
+    background-color: #ff3300;
+    padding: 0;
+    box-shadow: 2px 3px 3px 2px #cccccc;
+}
+.header-bottom .menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+.header-bottom .menu li{
+    display: inline;
+}
+.header-bottom .menu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 15px 20px
+}
+.header-bottom .menu a:hover{
+    background-color: #f5f5f5;
+    color: black;
+}
+.header-bottom .item .righticon{
+    float: right;
+    position: relative;
+    top:0;
+    color: #fff;
+    font-size: 22px;
+    padding: 16px;
+}
+.header-bottom .item .righticon:hover{
+    background-color: #f5f5f5;
+    color: black;
+}
+.header-bottom span:hover{
+    background-color: #f5f5f5;
+    color: black;
+}
+.nav-tutorial{
+    background-color:#f1f1f1 !important;
+    float: left;
+    width:100%;
+    display: none;
+    position: relative;
+    padding: 0;
+    position:absolute;
+    z-index:999 !important;
+    box-shadow: 2px 3px 2px 1px grey;
+}
+.header-bottom .item .menu .nav-tutorial .topright{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+    font-size: 33px;
+    padding: 0px 14px;
+}
+.header-bottom .item .menu .nav-tutorial .topright:hover{
+    background:#cccccc;
+}
+.nav-tutorial .nav-tutorial-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-tutorial .nav-tutorial-menu li{
+    display: inline;
+    margin-bottom: 10px;
+}
+.nav-tutorial .nav-tutorial-menu li a{
+    color:black;
+    display:block;
+    padding: 0;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+.nav-tutorial .nav-tutorial-menu li a:hover {
+    background-color: #cccccc;
+    
+}
+.nav-tutorial h4{
+    margin-top: 30px;
+    font-size: 23px
+}
+
+@media screen and (max-width: 991px){
+    .header-top a{
+        position: relative;
+        width:100%;
+        margin: 0;
+        padding: 0;
+        float: right;
+    }
+    .header-top h2{
+        position: relative;
+        width:100%;
+        text-align: center;
+        margin: 0;
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    .header-bottom .menu li:last-child{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px){
+    .togglesidemenu{
+        display: none;
+        float: left;
+    }
+}
+@media screen and (max-width: 767px){
+    .menu{
+        display: none;
+    } 
+    .row .sidepanel{
+        display: none;
+    }
+    .row .html,
+    .row .css,
+    .row .javascript,
+    .row .sql,
+    .row .lang-part{
+        float:right;
+        width: 100%;
+        transition:0.7s;
+    }
+    .header-bottom .item .righticon{
+        position: relative;
+        top:0;
+    }
+    .maincontainer .row .javascript .javascript-part h1{
+    font-size:3em;
+   }
+   .maincontainer .row .lang-part .language .box{
+    margin:0px;
+   }
+}
+.row{
+    margin: 0;   
+}
+.sidepanel{
+    background-color:#fff ;
+    padding: 0;
+    box-shadow: 2px 3px 2px grey;
+    height:100%;
+}
+.sidepanel h4{
+    padding-left: 20px;
+}
+.sidepanel ul{
+    list-style: none;
+    padding: 0;
+}
+.sidepanel ul li{
+    padding-left: 20px;
+}
+.sidepanel ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+.sidepanel ul li:hover{
+    background-color: #cccccc;
+}
+                              /*     HTML   */
+.html,
+.css,
+.javascript,
+.sql,
+.lang-part
+{
+    width:83.33333333%;
+    float: left;
+    padding: 15px;
+}
+.html-part{
+    padding: 20px;
+}
+.html-part h1{
+    margin-bottom: 20px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 64px!important;
+    color:#f5f5f5;
+    display: block; 
+}
+.html-part h4{
+    font-size: 24px!important
+    margin-bottom: 20px;
+    color:#3a3a3a!important;
+}
+.html-part{
+    padding: 20px;
+}
+.html-part h1{
+    font-size: 6em;
+    color: #555555;
+    margin-bottom: 20px;
+}
+.html-part h4{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.lg{
+    color:mediumblue !important;
+    font-family: Consolas,"courier new";
+    font-size: 16px;
+}
+.element{
+    color:brown;
+    letter-spacing:0.5px;
+    font-size: 15px;
+    font-family: Consolas,"courier new";
+}
+.property-name{
+    color:#ff0000;
+    margin-left: 35px;
+    font-size: 16px;
+    font-family: Consolas,"courier new";
+}
+.property-value{
+    color:mediumblue;
+    font-size: 16px;
+    font-family: Consolas,"courier new";
+}
+.colon{
+    color:black;
+    font-size: 16px;
+    font-family: Consolas,"courier new";
+}
+.html-part .btn{
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    padding: 9px 17px;
+}
+.btn-success{
+    background-color: #555555;
+    border:none;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.btn-success:hover{
+    background-color: #cccccc;
+    color:black;
+}
+.well{
+box-shadow: 2px 3px 2px 1px grey;
+}
+.well h3{
+    margin-bottom: 20px;
+}
+.well .btn-success{
+    margin-top: 20px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+ .innerdiv{
+    border-left: 3px solid green;
+    background-color:#fff;
+    padding:5px 5px 5px 10px;
+}
+                                 /*  CSS   */
+.css{
+     background-color:#f5f5f5 ;
+}
+.css .btn-success{
+    margin-top: 20px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.css-part{
+    padding: 20px;
+}
+.css-part h1{
+    font-size:5em;
+    color: #555555;
+    margin-bottom: 20px;
+}
+.css-part h4{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.css-part .btn{
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    padding: 9px 17px;
+}
+.css-part .btn-success{
+    background-color: #555555;
+    border:none;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.css-part .btn-success:hover{
+    background-color: #cccccc;
+    color:black;
+}
+                                 /* JavaScript */
+
+.javascript-part{
+    padding: 20px;
+}
+.javascript-part h1{
+    font-size:5em;
+    color: #555555;
+    margin-bottom: 20px;
+}
+.javascript-part h4{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.javascript-part .btn{
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    padding: 9px 17px;
+}
+.javascript-part .btn-success{
+    background-color: #555555;
+    border:none;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.javascript-part .btn-success:hover{
+    background-color: #cccccc;
+    color:black;
+}
+                                       /*    SQL     */
+.sql{
+     background-color:#f5f5f5 ;
+}
+.sql-part{
+    padding: 20px;
+}
+.sql .btn-success{
+    margin-top: 20px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.sql-part h1{
+    font-size:5em;
+    color: #555555;
+    margin-bottom: 20px;
+}
+.sql-part h4{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.sql-part .btn{
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    padding: 9px 17px;
+}
+.sql-part .btn-success{
+    background-color: #555555;
+    border:none;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.sql-part .btn-success:hover{
+    background-color: #cccccc;
+    color:black;
+}
+                              /*    Language Part   */
+.lang-part{
+     background-color:#555555 ;
+}
+.language{
+     padding: 10px;
+}
+.language .box{
+    background: #fff;
+    text-align: center;
+    padding-top: 2px;
+    margin:18px;
+}
+.language .box h1{
+    
+}
+.language .box .divheight{
+ font-size: 19px;
+ color: gray;
+ height:70px;
+     margin-top: 16px;
+}
+@media screen and (max-width: 1092px){
+    .language .box p{
+        
+    }
+}
+.language .box .btn-success{
+padding: 10px 15px;
+text-transform: uppercase;
+font-size: 17px;
+margin-bottom: 30px;
+}

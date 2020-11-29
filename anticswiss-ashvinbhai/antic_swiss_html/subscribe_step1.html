@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Antic Swiss</title>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto" />
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Old Standard TT" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/responsive.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery.min.js"></script>       
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="maincontainer">
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul>
+                    <li><a href="category.html">Collezione</a></li>
+                    <li><a href="#">Novità</a></li>
+                    <li><a href="product_list.html">Antiquari</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="about.html">Chi siamo</a></li>
+                    <li><a href="contact.html">Contatti</a></li>
+                </ul>
+            </div>
+
+            <div class="header">
+                <div class="headertop">
+                    <div class="container">
+                        <div class="col-md-9 col-sm-12 col-xs-12 headerinfo">
+                            <div class="item col-md-4 col-xs-12 col-sm-6 text-center">
+                                <form>
+                                    <input type="text" placeholder="Cerca">
+                                    <input type="submit">
+                                </form>
+                            </div>
+                            <div class="item col-md-4 col-xs-12 col-sm-6 galleriabtn text-center">
+                                <a href="#">SEI UN ANTIQUARIO? ISCRIVITI</a>
+                            </div>
+                            <div class="item col-md-2 col-xs-12 col-sm-6 text-center username">
+                                <a class="loginsignup" href="#">Accedi<img src="images/icon-accedi.jpg"></a>
+                            </div>
+                            <div class="item col-md-2 col-xs-12 col-sm-6 text-center lang">
+                                <div class="dropdown">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                        <img src="images/flag.jpg">
+                                        <span class="caret"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><img src="images/flag.jpg"></a></li>
+                                        <li><a href="#"><img src="images/flag.jpg"></a></li>
+                                        <li><a href="#"><img src="images/flag.jpg"></a></li>
+                                    </ul>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="headerbottom">
+                    <div class="container">
+                        <div class="col-md-12">
+                            <div class="logo col-md-3 col-xs-12 text-center">
+                                <span class="togglesidemenu" onclick="openNav()">&#9776; MENU</span>
+                                <a href="index.html"><img src="images/logo.png"></a>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="navigationmenu">
+                                    <ul>
+                                        <li class="active"><a href="category.html">Collezione</a></li>
+                                        <li><a href="#">novità</a></li>
+                                        <li><a href="product_list.html">antiquari</a></li>
+                                        <li><a href="#">blog</a></li>
+                                        <li><a href="about.html">Chi siamo</a></li>
+                                        <li><a href="contact.html">contatti</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>    
+            <div class="homebanner">
+                <div class="overlay"></div>
+                <img src="images/subscribestep1_banner.png">
+                <div class="textlayer text-center">
+                    <div class="container">
+                        <div class="col-md-12 text-center">
+                            <h1>Iscrivi la tua Galleria</h1>
+                            <div class="border"></div>
+                            <p>e scopri com’è facile vendere su Antic Swuiss</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="preziosidipinti subscribeform">
+                <div class="container">
+                    <div class="col-md-12 text-center">
+                        <h3>Comincia a Guadagnare su Antic Swiss. Un intero anno a soli 380€.</h3>
+                        <div class="border"></div>
+                        <p>Iscrivi la tua galleria per comiciare a vendere su Antic Swiss. Potrai inserire fino a tre prodotti al giorno.<br>
+                            Compila i campi e ti invieremo un’email con le credenziali per accedere.<br> 
+                            Dopo che avrai inserito i tuoi dati, potrai procedere con il pagamento della quota annuale di iscrizione di 380€, tramite paypal o bonifico bancario. </p>
+                        <div class="col-md-12">
+                            <div class="right col-md-12 col-sm-12">
+                                <form>
+                                    <div class="formfield">
+                                        <div class="halffield">
+                                            <input type="text" placeholder="Nome">
+                                        </div>
+                                        <div class="halffield">
+                                            <input type="text" placeholder="e-mail">
+                                        </div>
+                                    </div>
+                                    <div class="formfield">
+                                        <input type="text" placeholder="Nome galleria">
+                                    </div>                                
+                                    <div class="formfield terms">
+                                        <input type="checkbox"> 
+                                        <span>Accetto la Privacy e le Condizioni del servizio.</span>                                     
+                                    </div>
+                                    <div class="formfield">
+                                        <input type="button" value="ISCRIVI LA GALLERIA" data-toggle="modal" data-target="#subscriptionpopup">
+                                    </div>
+                                    <!--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>-->
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer" id="subscribefooter">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="item col-md-4 col-sm-12">
+                            <img class="footlogo" src="images/logo.png">
+                            <ul class="addressinfo">
+                                <li>Via Lucardesi, <br> 50026 San Casciano in Val di Pesa (FI) </li>
+                                <li>Tel.+39 338 623 32 46 - info@anticswiss.com</li>
+                            </ul>
+                            <ul class="socialicon">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="item col-md-2 col-sm-4">
+                            <ul class="footermenu">
+                                <li><a href="#">Chi siamo</a></li>
+                                <li><a href="#">Contatti</a></li>
+                                <li><a href="#">Antiquari</a></li>
+                                <li><a href="#">Vendi sul sito</a></li>
+                            </ul>
+                        </div>
+                        <div class="item col-md-2 col-sm-4">
+                            <ul class="footermenu">
+                                <li><a href="#">Collezione</a></li>
+                                <li><a href="#">Oggetti venduti</a></li>
+                                <li><a href="#">Oggetti riservati</a></li>
+                                <li><a href="#">In Evidenza</a></li>
+                                <li><a href="#">Novità</a></li>
+                            </ul>
+                        </div>
+                        <div class="item col-md-4 col-sm-4">
+                            <img src="images/footerflag.jpg">
+                            <ul class="footermenu">
+                                <li><a href="#">Vendere su anticSwiss</a></li>
+                                <li><a href="#">Tariffe e abbonamenti</a></li>
+                                <li><a href="#">Trasporto</a></li>
+                                <li><a href="#">Normativa e condizioni d’uso</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                        <div class="col-md-12">
+                            <div class="col-md-6 col-xs-12">
+                                <p>&copy;anticSwiss™ - P.IVA IT02292420482</p>
+                            </div>
+                            <div class="col-md-6 col-xs-12 text-right">
+                                <p>design by: Credits</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="modal fade subscriptionpopup" id="subscriptionpopup" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-border">
+                        <div class="modal-header">                           
+                            <h4 class="modal-title">La tua richiesta di iscrizione è stata inoltrata. </h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Controlla la tua casella email. Appena la tua richiesta verrà approvata ti invieremo una mail con le credenziali.</p>
+                        </div>
+                        <div class="modal-footer"> 
+                            <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                        </div>
+                    </div>    
+                </div>
+
+            </div>
+        </div>               
+    </body>
+</html>

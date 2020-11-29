@@ -1,0 +1,2487 @@
+body{
+    background-color: #fff;
+    color: #393631;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-family: 'Old Standard TT' !important; 
+}
+img{    
+    max-width: 100%;
+}
+a,
+a:hover{
+    text-decoration: none !important;
+    font-family: sans-serif;
+    outline: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif !important;
+}
+a:active,
+a:focus{
+    outline: none !important;
+    color: #fff;
+}
+
+
+.maincontainer{
+    float: left;
+    width: 100%;
+}
+
+/*  Header  */
+
+.header{
+    float: left;
+    width: 100%;
+}
+.header .headertop{
+    float: left;
+    width: 100%;
+    background-color: #292929;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.header .headertop .headerinfo{
+    float: right;
+}
+.header .headerbottom{
+    float: left;
+    width: 100%;
+    background-color: #141414;
+}
+.headertop .headerinfo form{
+    position: relative;
+    float: left;
+    width: 80%;
+}
+.headertop .headerinfo input[type="text"]{
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: #292929;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    font-style: italic;
+}
+.headertop .headerinfo input[type="submit"] {
+    background-color: #f8f8f8;
+    background: url("../images/site-search-icon.png") no-repeat scroll center 14px rgba(0, 0, 0, 0.03);
+    border-radius: 0 !important;
+    cursor: pointer;
+    height: 42px;
+    line-height: 100;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -5555em;
+    width: 45px;
+    border: none;
+    right: -5px;
+    top:-10px;
+}
+
+.headerinfo .galleriabtn a{
+    background-color: #dd2000;
+    padding: 6px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.headerinfo .galleriabtn a:hover,
+.vendisu .innerdiv .button a:hover,
+.vendisu .innerdiv input[type="submit"]:hover,
+.productdetails .productbuttons a:hover{
+    background-color: #910000;
+}
+
+.viewallblog a:hover,
+.productdetails .productbuttons a.contatta:hover{
+    background-color: #5F5F5F;
+}
+
+.socialicon li a i:hover{
+    background-color: #dd2000;
+    color: #fff;
+}
+.navigationmenu ul li a:hover,
+.footermenu li a:hover{
+    color: #dd2000;
+}
+
+.headerinfo .loginsignup{
+    background-color: #141414;
+    padding: 6px 8px;
+    color: #fff;
+    font-size: 14px;
+}
+.headerinfo .loginsignup img{
+    margin-left: 5px;
+}
+.headerinfo .dropdown button{
+    background: none;
+    border: none;
+    padding: 0;
+}
+.headerinfo .btn-primary.active, 
+.headerinfo .btn-primary:active, 
+.headerinfo .open > .dropdown-toggle.btn-primary{
+    background: none;
+}
+.headerinfo .dropdown-menu{
+    min-width: auto;
+    width: 50px;
+    left: 25px;
+}
+.headerinfo .dropdown-menu li img{
+    width: 100%;
+}
+.headerinfo .dropdown-menu li a{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navigationmenu{
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+.navigationmenu ul{
+    list-style: none;
+    padding: 0;
+    float: right;
+    margin: 0;
+}
+.navigationmenu ul li{
+    float: left;
+    padding: 5px 15px;
+}
+.navigationmenu ul li a{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.navigationmenu ul li.active a{
+    border-bottom: 2px solid #dd2000;
+    padding-bottom: 10px;
+}
+.navigationmenu ul li a:hover{
+    border-bottom: 2px solid #dd2000;
+    padding-bottom: 10px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav li{
+    padding: 10px;
+}
+.sidenav ul{
+    color: #fff;
+}
+.sidenav li ul{
+    padding-left: 10px;
+    color: #fff;
+}
+.sidenav ul li a{
+    text-decoration: none;
+}
+.sidenav a {
+    padding: 0 !important;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.sidenav li a:hover {
+    color: #f1f1f1;
+    background: none !important;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.headertopbottom .moblogo{
+    float: left;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.headertopbottom .moblogo img{
+    width: 20%;
+}
+.togglesidemenu{
+    color: #fff;
+    position: absolute;
+    left: 10%;
+    top:30%;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+    .togglesidemenu{
+        display: none;
+    }
+    .headertopbottom .moblogo{
+        display: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    .navigationmenu{
+        display: none;
+    }
+    .togglesidemenu{
+        position: inherit;
+        float: left;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        top:0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+
+/*  Home  */
+
+.homebanner{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.homebanner .overlay {
+    height: 100%;
+    background:#000;
+    //filter: alpha(opacity=50);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.homebanner .textlayer{
+    position: absolute;
+    top:0;
+    color: #fff;
+    float: left;
+    width: 100%;
+    top:30%;
+}
+.homebanner .textlayer h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.homebanner .textlayer p{
+    font-size: 36px;
+    font-family: 'Old Standard TT' !important; 
+    padding-top: 20px;
+    font-style: italic;
+}
+.homebanner .textlayer .border{
+    background-color: #fff;
+    height: 2px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+.preziosidipinti{
+    float: left;
+    width: 100%;
+    background-color: #141414;
+    padding: 40px 0;
+    color: #fff;
+}
+.preziosidipinti .border{
+    background-color: #dc2100;
+    height: 2px;
+    width: 20%;
+    margin: 0 auto;
+}
+.preziosidipinti h3{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.preziosidipinti p{
+    padding-top: 20px;
+}
+
+.preziosidipintiitem{
+    float: left;
+    width: 100%;
+}
+.preziosidipintiitem .item{
+    padding: 0;
+    position: relative;
+}
+.preziosidipintiitem .item img{
+    width: 100%;
+}
+.preziosidipintiitem .item .outerdiv {
+    width: 300px;
+    height: 170px;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    margin-left: -150px;
+    margin-top: -150px;
+    background-color: #000;
+    opacity: 0.8;
+    -webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s;
+    -webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: height 0.5s;
+    -webkit-transition: top 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: top 0.5s;
+
+}
+
+.preziosidipintiitem .item .innerdiv{
+    height: 100%;
+    padding: 15px;
+}
+.preziosidipintiitem .item .innertext{
+    height: 100%;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 40px;
+}
+.preziosidipintiitem .item .outerdiv h3{
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.preziosidipintiitem .item .outerdiv:hover{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    left: 45%;
+    top: 70%;
+}
+.preziosidipintiitem .item .innertext .hoverdiv{
+    float: left;
+    width: 100%;
+    display: none;
+}
+.preziosidipintiitem .item .outerdiv:hover .hoverdiv{
+    display: block;
+}
+.preziosidipintiitem .item .outerdiv:hover .hidetext{
+    display: none;
+}
+.preziosidipintiitem .item .outerdiv:hover .innertext{
+    padding: 20px;
+}
+
+.preziosidipintiitem .item .innertext .hoverdiv h4{
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.preziosidipintiitem .item .innertext .hoverdiv p{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;        
+    font-family: 'Old Standard TT' !important;
+}
+.preziosidipintiitem .item .innertext .hoverdiv .border{
+    background-color: #fff;
+    height: 2px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+.articoliinevidenza{
+    float: left;
+    width: 100%;
+    background-color: #141414;
+    padding: 40px 0;
+}
+h2.heading{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.slider-wrap {
+    position: relative;
+    margin: 50px auto;
+    width: 100%;
+    margin-bottom: 0;
+}
+.slider-wrap .slider {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+.slider-wrap ul {
+    margin: 0;
+    padding: 0;
+}
+.slider-wrap ul li {
+    list-style: none;
+    text-align: center;
+}
+.slider-wrap ul li span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    background: black;
+}
+.slider-wrap .slider-arrow {
+    position: absolute;
+    top: 40px;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.slider-wrap .sa-left,
+.slider-wrap .sa-left1,
+.slider-wrap .sa-left2,
+.slider-wrap .sa-left3{
+    left: -50px;
+    top:30%;
+}
+.slider-wrap .sa-right,
+.slider-wrap .sa-right1,
+.slider-wrap .sa-right2,
+.slider-wrap .sa-right3{
+    right: -50px;
+    top:30%;
+}
+
+
+
+.slider-wrap .item{
+    padding: 0;
+    position: relative;
+    border: 2px solid #fff;
+    margin: 5px;
+}
+.slider-wrap .item img{
+    width: 100%;
+}
+.slider-wrap .item .outerdiv {
+
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    /* margin-left: -150px; */
+    /* margin-top: -150px; */
+    background-color: #000;
+    opacity: 0.8;
+    display: none;
+}
+.slider-wrap .item:hover .outerdiv{
+
+
+}
+
+.slider-wrap .item .innerdiv{
+    height: 100%;
+    padding: 15px;
+}
+.slider-wrap .item .innertext{
+    height: 100%;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 65px 10px;
+}
+.slider-wrap .item .outerdiv h3{
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+.slider-wrap .item .innertext .border{
+    background-color: #fff;
+    height: 2px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.slider-wrap .item .innertext p{
+    color: #fff;
+}
+.slider-wrap .item .offer {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.slider-wrap ul li p.desc{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+    font-style: italic;
+}
+.slider-wrap ul li:hover p.desc{
+    color: #dd2000;
+}
+
+
+
+
+.collezione{
+    float: left;
+    width: 100%;
+    padding: 30px 0px;
+}
+.collezione h2{
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: rgb(220,32,0);
+    font-family: "Old Standard TT";
+    font-weight: bold;
+}
+.collezionemenu{
+    background-color: #141414;
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+}
+.collezionemenu ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+.collezionemenu ul li{
+    display: inline-block;
+    padding: 0 16px;
+}
+.collezionemenu ul li a{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.collezionemenu ul li a:hover{
+    border-bottom: 2px solid #dc1f00;
+    color: #dc1f00;
+}
+
+.collezionesearching{
+    float: left;
+    width: 100%;
+    background-color: #292929;
+    padding: 10px 10px;
+}
+.collezionesearching select{
+    width: 100%;
+    background-color: #141414;
+    border: none;
+    padding: 5px;
+    color: #fff;
+}
+.collezionesearching form {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.collezionesearching input[type="text"] {
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: #292929;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    font-style: italic;
+}
+.collezionesearching input[type="submit"] {
+    background-color: #f8f8f8;
+    background: url("../images/site-search-icon.png") no-repeat scroll center 14px rgba(0, 0, 0, 0.03);
+    border-radius: 0 !important;
+    cursor: pointer;
+    height: 42px;
+    line-height: 100;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -5555em;
+    width: 45px;
+    border: none;
+    right: -5px;
+    top: -10px;
+}
+
+
+.collezionelisting{
+    float: left;
+    width: 100%;
+    background-color: #141414;
+    padding: 40px 10px;
+}
+.collezionelisting .itemlist{
+    padding-bottom: 50px;
+}
+.collezionelisting .item{
+    padding: 0;
+    position: relative;
+    border: 2px solid #fff;
+    margin: 5px;
+}
+.collezionelisting .item img{
+    width: 100%;
+}
+.collezionelisting .item .outerdiv {
+    /*    width: 90%;
+        height: 90%;*/
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    /* margin-left: -150px; */
+    /* margin-top: -150px; */
+    background-color: #000;
+    opacity: 0.8;
+    display: none;
+
+}
+.collezionelisting .item:hover .outerdiv{
+    /*    display: block;*/
+}
+
+.collezionelisting .item .innerdiv{
+    height: 100%;
+    padding: 15px;
+}
+.collezionelisting .item .innertext{
+    height: 100%;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 65px 10px;
+}
+.collezionelisting .item .outerdiv h3{
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+.collezionelisting .item .innertext .border{
+    background-color: #fff;
+    height: 2px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.collezionelisting .item .innertext p{
+    color: #fff;
+}
+.collezionelisting .item .offer {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.collezionelisting .item .riservato {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #131210;
+    padding: 5px 20px;
+}
+.collezionelisting .itemlist p.desc{
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+}
+.collezionelisting .itemlist:hover p.desc{
+    color: rgb(220,32,0);
+}
+
+.collezionelisting .pagination{
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+.collezionelisting .pagination ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+.collezionelisting .pagination ul li {
+    display: inline-block;
+    padding: 3px;
+}
+.collezionelisting .pagination ul li a {
+    font-size: 25px;
+    color: #afaca7;
+    font-family: 'Old Standard TT' !important;
+}
+.collezionelisting .pagination ul li i {
+    font-size: 50px;
+    color: #383530;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+}
+.collezionelisting .pagination ul li.active a {
+    color: #dd2000;
+}
+
+
+.blogdellantiquario{
+    float: left;
+    width: 100%;
+    padding: 50px 50px;
+}
+.blogouter{
+    float: left;
+    width: 100%;
+    background-color: #ededed;
+    padding: 30px;
+}
+.bloginner{
+    float: left;
+    width: 100%;
+    border: 2px solid #000;
+}
+.blogdellantiquario h2.heading{
+    color: #dd2000;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+}
+.blogdellantiquario .border{
+    background-color: #dd2000;
+    height: 2px;
+    margin: 0 auto;
+    width: 15%;
+}
+.firstblog{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.blogtitle{
+    color: #292929;
+    font-weight: bold;
+}
+.firstblog .blogtitle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.firstblog p{
+    line-height: 25px;
+    font-size: 15px;
+}
+.firstblog .readmore{
+    float: left;
+    padding-top: 10px;
+    color: #292929;
+    font-weight: bold;
+}
+.viewallblog{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    float: left;
+    width: 100%;
+}
+.viewallblog a{
+    background-color: #292929;
+    color: #fff;
+    padding: 10px 35px;
+    font-size: 22px;
+}
+.blogdellantiquario img{
+    width: 100%;
+}
+
+
+.vendisu{
+    float: left;
+    width: 100%;
+    /*background-color: #1B1B1B;*/
+}
+.vendisu .item{
+    padding: 0;
+}
+.vendisu .item:first-child{
+    padding-right: 8px;
+}
+.vendisu .item:last-child{
+    padding-left: 8px;
+}
+.vendisu .outerdiv{
+    background-color: #292929;
+    padding: 15px;
+}
+.vendisu .innerdiv{
+    border: 2px solid #fff;
+    padding: 30px 50px 65px 50px;
+}
+.vendisu .innerdiv p{
+    color: #f6f6f6;
+    font-size: 20px;
+    font-family: 'Old Standard TT' !important;
+}
+.vendisu .innerdiv .button{
+    padding-top: 20px;
+}
+.vendisu .innerdiv .button a{
+    background-color: #dd2000;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.vendisu .innerdiv input[type="text"]{
+    background-color: #000000;
+    color: #b7b7b7;
+    padding: 10px;
+    border: none;
+    width: 50%;
+}
+.vendisu .innerdiv input[type="submit"]{
+    background-color: #dd2000;
+    padding: 8px 40px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+}
+.vendisu .item:last-child .innerdiv{
+    padding-bottom: 41px;
+}
+.vendisu .innerdiv .acceptprivacy{
+    float: left;
+    width: 100%;
+    padding-top: 5px;
+}
+.vendisu .innerdiv .acceptprivacy span{
+    color: #fff;
+    font-family: 'Old Standard TT' !important;
+    font-size: 14px;
+    padding-left: 10px;
+}
+/*  Footer */
+
+.footer{
+    float: left;
+    width: 100%;
+    background-color: #141414;
+}
+.footer .item{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footlogo{
+    margin-bottom: 15px;
+}
+.addressinfo,
+.socialicon{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.addressinfo li{
+    color: #fff;
+    padding-bottom: 10px;
+}
+.socialicon{
+    text-align: center;
+    padding-right: 40px;
+}
+.socialicon li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.socialicon li a i {
+    background-color: #fff;
+    color: #141414;
+    /* padding: 10px; */
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+}
+
+.footermenu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-top: 50px;
+}
+.footermenu li{
+    padding-bottom: 10px;
+}
+.footer .item:last-child ul{
+    padding-top: 10px;
+}
+.copyright{
+    border-top:1px solid #fff; 
+    float: left;
+    width: 100%;
+    padding: 8px;
+    color: #fff;
+}
+.copyright p{
+    margin-bottom: 0;
+}
+
+
+/*  product Detail */
+
+.altrioggetti{
+    float: left;
+    width: 100%;
+    background: none;
+}
+
+.altrioggettiouter {
+    width: 80%;
+    margin: 0 auto;
+}
+.altrioggettiouterinner{
+    background-color: #292929;
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+.altrioggettiinner{
+    width: 100%;
+    border: 2px solid #fff;
+    float: left;
+    padding: 0 50px;
+}
+.veditutti{
+    position: relative;
+}
+.veditutti .border{
+    width: 100%;
+    background-color: #606060;
+    height: 2px;
+    float: left;
+}
+.veditutti span {
+    color: #dc1f00;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    font-weight: bold;
+}
+
+
+.productdetails{
+    float: left;
+    width: 100%;
+    background-color: #141414;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.breadcrumbs{
+    color: #c6c6c6;
+    font-size: 13px;
+    padding-bottom: 30px;
+    float: left;
+    width: 100%;
+}
+
+.productdetails .right h1{
+    color: #fff;
+    font-weight: bold;
+    line-height: 45px;
+    border-bottom: 2px solid #fff;
+}
+.productdetails .right .productinfolist{
+    list-style: none;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.productdetails .right .productinfolist li{
+    padding-bottom: 10px;
+}
+.productdetails .right h4{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+.productdetails .right h3{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+}
+.productdetails .right p{
+    color: #fff;
+    text-align: center;
+}
+
+.productdetails .addressinfos{
+    color: #fff;
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+.productdetails .addressinfos li{
+    display: inline-block;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.productdetails .addressinfos .address{
+    width: 100%;
+    padding-bottom: 5px;
+}
+.productdetails .addressinfos li i{
+    margin-right: 10px;
+}
+
+.productdetails .productbuttons{
+    margin: 0 auto;
+    width: 55%;
+    text-align: center;
+    padding-top: 20px;
+}
+.productdetails .productbuttons a{
+    background-color: #ad1d03;
+    padding: 10px 10px;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.productdetails .productbuttons a.contatta{
+    background-color: #292929;
+}
+
+.productdetails .socialicons{
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+.productdetails .socialicons li{
+    float: left;
+    padding: 10px;
+}
+.productdetails .socialicons li a{
+    text-align: center;
+}
+.productdetails .socialicons li i{
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.productdetails .socialicons li i.fa-twitter{
+    background-color: #00acee;
+}
+.productdetails .socialicons li i.fa-facebook{
+    background-color: #3a5999;
+}
+.productdetails .socialicons li i.fa-google-plus{
+    background-color: #dd4c39;
+}
+.productdetails .socialicons li i.fa-pinterest{
+    background-color: #ca2128;
+}
+
+
+.productdetails .socialicons.print{
+    float: right;
+}
+.productdetails .socialicons li i.fa-print{
+    background-color: #141414;
+    font-size: 25px;
+}
+
+.productdetails .slider-wrap{
+    margin-top: 0;
+}
+.productdetails .slider-wrap li .item{
+    border: none;
+}
+
+.productdetails .slider-wrap .sa-left{
+    left: -25px;
+}
+.productdetails .slider-wrap .sa-right{
+    right: -25px;
+}
+
+
+.productdescription{
+    float: left;
+    width: 100%;
+    background-color: #292929;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.productdescription .left .border{
+    background-color: #ad1d03;
+    height: 2px;
+    width: 20%;
+    float: left;
+    margin-top: 15px;
+}
+.productdescription .left ul{
+    padding-left: 0;
+    list-style: none;
+    float: left;
+    width: 100%;
+    padding-top: 30px;
+}
+.productdescription .left ul li{
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.productdescription .right{
+    padding-top: 50px;
+}
+.vendisuproduct{
+    padding-top: 20px;
+}
+.productdetails .right{
+    float: left;
+}
+.productdescription .signature{
+    float: left;
+    width: 100%;
+    text-align: right;
+}
+.productdescription .signature p{
+    font-size: 30px;
+    font-family: "Alex Brush" !important;
+}
+.collezionelisting .item .innertext{
+    position: relative;
+}
+.centerdiv {
+    position: absolute;
+    text-align: center;
+    float: left;
+    width: 100%;
+    top: 35%;
+    left: 0;
+    right: 0;
+}
+
+/* collection page */
+
+.collectionitem{
+    float: left;
+    width: 100%;
+    background-color: #1B1B1B;
+    padding: 35px 55px 35px 55px;
+}
+
+.collectionitem .item{
+    padding: 20px;
+}
+
+.collectionitem .item img{
+    border: 3px solid #fff;
+}
+
+.collectionitem .item .innertext .hoverdiv .border{
+    margin-top: 15px;
+}
+
+.collectionitem .item .outerdiv{
+    width: 250px;
+    height: 160px;
+    left: 56%;
+}
+
+.collectionitem .item .innertext{
+    padding: 40px 10px;
+}
+
+.collectionitem .item .outerdiv:hover{    
+    width: 280px;
+    height: 180px;
+    left: 52%;
+    top: 72%;  
+}
+
+/* About Page */
+.aboutpage p{
+    font-size: 14px;
+    line-height: 27px;
+    padding-bottom: 40px;
+    font-family: "Roboto" !important;
+}
+
+.aboutpage h4{
+    font-size: 18px;
+    font-family: "Roboto" !important;
+    text-align: center;
+}
+
+.aboutpage .button a {
+    background-color: #B4231B;   
+    font-size: 18px;
+    padding: 10px 60px;
+    font-size: 24px;
+}
+
+.aboutpage .aboutaddress{
+    float: left;
+    width: 100%;
+    margin-bottom: 35px;
+}
+.aboutpage .button{
+    float: left;
+    width: 100%;  
+    margin-bottom: 30px;
+}
+.mauris h1{ 
+    padding-top: 30px; 
+}
+
+/* Product List Page */
+
+.productlistheading{
+    float: left;
+    width: 100%;
+    padding: 40px 0px 10px 0px;
+}
+
+.productlistheading h1{
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: rgb(41,41,41);
+    font-family: "Old Standard TT";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.productlistheading .border{
+    background-color: #dc2100;
+    height: 2px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.productlistheading h4{
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: rgb(20,20,20);
+    font-family: "Old Standard TT";
+    font-style: italic;
+    padding-top: 25px;
+}
+
+.productlistheading p{
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 27px;
+    color: rgb(20,20,20);
+    font-family: "Roboto";
+}
+
+/* Contact page */ 
+
+.contactform{
+    float: left;
+    width: 100%;
+    background-color: #141414;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.contactform .left{
+    color: #fff;
+    padding-right: 35px;
+}
+.contactform .right{
+    padding-left: 35px;
+}
+.contactform .left h3{
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: rgb(255,255,255);
+    font-family: "Old Standard TT";
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.contactform .left .border {
+    background-color: #dc2100;
+    height: 2px;
+    width: 20%;
+    margin: 0 auto;
+}
+.contactform .left p{
+    padding-top: 50px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 27px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    text-align: center;
+}
+.contactform .left .addressinfo{
+    float: left;
+    width: 100%;
+    padding-top: 40px;
+}
+.contactform .left .addressinfo p{
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contactform form{
+    float: left;
+    width: 100%;
+    padding-top: 50px;
+}
+.contactform form .formfield,
+.subscribeform form .formfield{
+    float: left;
+    width: 100%;
+    padding-bottom: 25px;
+}
+.contactform form .formfield.terms{
+    color: #fff;
+    font-size: 16px;
+}
+.contactform form .formfield.terms p,
+.subscribeform form .formfield.terms p{
+    padding-top: 7px;
+    font-size: 14px;
+}
+.contactform form .formfield .halffield,
+.subscribeform form .formfield .halffield{
+    float: left;
+    width: 48%;
+}
+.contactform form .formfield .halffield:last-child,
+.subscribeform form .formfield .halffield:last-child{
+    float: right;
+}
+
+
+.contactform form input[type="text"],
+.contactform form input[type="email"],
+.contactform form textarea{
+    width: 100%;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 3px;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 0px;
+    font-family: "Roboto";
+    font-style: italic;
+}
+.contactform form textarea{
+    height: 150px;
+}
+.contactform form input[type="submit"]{
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    text-align: center;
+    background-color: #ad1c03;
+    border: none;
+    padding: 5px 40px;
+}
+.contactform form input[type="submit"]:hover,
+.subscribeform form input[type="submit"]:hover{
+    background-color: #910000;
+}
+
+/* Gallery Page */
+
+.gallerydata .gallerytitle{
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: rgb(20,20,20);    
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.gallerydata p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: rgb(41,41,41);
+    font-family: "Roboto";
+    font-style: italic;
+}
+
+.gallerydata .gallerydetail {
+    padding: 30px 0px;
+}
+
+.gallerydata .gallerydetail .viewallblog a{
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 10px 35px;
+    font-size: 22px;
+}
+
+.collezionesearching .searchbox{
+    float: right;
+}
+
+.gallerylisting .item .outerdiv h3{
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
+.gallerylisting .item .outerdiv p{
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: "Old Standard TT";
+}
+
+.gallerylisting .itemlist p.cityname {
+    padding: 5px 30px 0px 30px;   
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.gallerylisting .itemlist:hover p.cityname {
+    color: rgb(220,32,0);
+}
+.gallerylisting .itemlist p.desc{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    max-height: 35px;
+    overflow: hidden;
+    padding: 10px;
+}
+.gallery{
+    float: left;
+    width: 100%;
+    padding: 20px 50px 40px 50px;
+}
+.gallery .bloginner{    
+    padding: 0px 30px;
+}
+
+.gallerydata .gallerydetail .viewallblog{
+    padding: 30px 0px;
+}
+
+
+
+/* chi saimo  */
+
+.ulivigallery{
+    float: left;
+    width: 100%;
+    background-color: #000;
+    padding-top: 20px;
+}
+.ulivigallery .heading{
+    font-size: 36px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    color: rgb(255,255,255);
+    font-family: "Old Standard TT";
+    font-weight: bold;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    padding-left: 100px;
+}
+.ulivigallery .border{
+    border:1px solid #fff;
+    float: left;
+    width: 100%;
+}
+.galleryinfo{
+    float: left;
+    width: 100%;
+    padding-left: 140px;
+}
+.ulivigalleryinfo{
+    float: left;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.ulivigalleryinfo .left{
+    position: relative;
+}
+.ulivigalleryinfo .galleryimage{
+    border: 8px solid #fff;
+}
+.ulivigalleryinfo .userimage{
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: absolute;
+    top: -100px;
+    left: -100px;
+}
+.ulivigalleryinfo .addressinfos{
+    list-style: none;
+    color: #fff;
+}
+.ulivigalleryinfo .addressinfos li{
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    padding-bottom: 25px;
+}
+.ulivigalleryinfo .addressinfos li i{
+    margin-right: 10px;
+}
+.ulivigalleryinfo .addressinfos li:first-child,
+.ulivigalleryinfo .addressinfos li:last-child{
+    width: 100%;
+}
+
+.ulivigalleryinfo .socialicons{
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+.ulivigalleryinfo .socialtitle{
+    float: left;
+    width: 100%;
+    margin-left: 35px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    border-bottom: 2px solid #fff;
+    line-height: 35px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.ulivigalleryinfo .socialicons li{
+    float: left;
+    padding: 0 15px;
+    text-align: center;
+}
+.ulivigalleryinfo .socialicons li:first-child{
+    padding-left: 0;
+}
+.ulivigalleryinfo .socialicons li a i {
+    background-color: #fff;
+    color: #141414;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+    font-size: 25px;
+}
+.ulivigalleryinfo .socialicons li a:hover i{
+    background-color: #dd2000;
+    color: #fff;
+}
+.ulivigalleryinfo .right{
+    padding-bottom: 50px;
+}
+.ulivigalleryinfo .button{
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    text-align: center;
+    background-color: #292929;
+    padding: 10px 35px;
+}
+.ulivigalleryinfo .button:hover{
+    background-color: #910000;
+}
+.ulivigalleryinfo .offerta{
+    background-color: #ad1c03;
+}
+
+.chisaimo{
+    background: none;
+}
+.chisaimo h3{
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: rgb(20,20,20);
+    font-family: "Old Standard TT";
+    font-weight: bold;
+    text-align: center;
+}
+.chisaimo p{
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 27px;
+    color: rgb(20,20,20);
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.chisaimo .signature p {
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: rgb(188,188,188);
+    font-family: "Alex Brush" !important;
+    text-align: right;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.articoliinevidenza .altrioggettiinner{
+
+}
+.articoliinevidenza .contactform{
+    background: none;
+}
+.articoliinevidenza .contactform form{
+    padding-top: 0;
+}
+.articoliinevidenza .contactform form .formfield.terms{
+    padding-bottom: 5px;
+}
+.articoliinevidenza .contactform .left h3{
+    letter-spacing: 1px;
+    color: rgb(255,255,255);
+    font-family: "Old Standard TT";
+    font-style: italic;;
+    text-align: center;
+}
+.articoliinevidenza .contactform .left .addressinfo p{
+    padding-top: 0;
+    margin-bottom: 0;
+}
+.articoliinevidenza .contactform .left .addressinfo label{
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.articoliinevidenza .contactform .left{
+    padding-top: 50px;
+}
+
+/*Blog List*/
+
+.bloginner .firstblog .blogcontent{
+    padding: 0px 66px;
+}
+
+.bloginner .firstblog .blogcontent p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: rgb(45,45,45);
+    font-family: "Roboto";
+}
+
+.bloginner .firstblog .blogcontent .blogtitle{
+    padding-bottom: 0px;
+    color: rgb(58,58,58);
+    letter-spacing: 2px;
+    padding-top: 0px;
+}
+
+.productlistheading .bloghead{
+    padding-bottom: 15px;
+}
+
+.bloglisting .itemlist p.blogcat{
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: rgb(223,223,223);
+    font-family: "Roboto";
+    font-style: italic;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+.bloglisting .item{
+    margin: 0px;
+}
+
+.bloglisting .itemlist p.blogname{
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: rgb(255,255,255);
+    font-family: "Old Standard TT";
+    font-weight: bold;
+}
+
+.bloglisting .item .centerdiv{
+    top: 15%;
+}
+
+.bloglisting .item .innertext{
+    padding: 10px 5px;
+}
+
+.bloglisting .item .innertext p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(255,255,255);
+    font-family: "Old Standard TT";
+    text-align: center;
+    line-height: 22px;
+    padding: 0px 5px;
+}
+
+.bloglisting .item .innertext .border{
+    background-color: #dd2000;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.bloglisting .item .outerdiv{
+    width: 100% !important;
+    height: 100% !important;
+    left: 0;
+    top: 0;
+}
+
+/*Blog Detail Page*/
+
+.blogdetailbanner .textlayer p,
+.blogdetailbanner .textlayer h1{
+    letter-spacing: 1px;
+}
+
+
+.singleblogpage {
+    float: left;
+    width: 100%;
+    padding: 0px 60px;
+}
+
+.singleblogpage .blogbreadcrumb {
+    float: left;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.blogbreadcrumb a, .blogbreadcrumb span {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: rgb(92,92,92);
+}
+
+.blogssectiondetail h2{
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: rgb(20,20,20);
+    font-family: "Old Standard TT";
+    font-style: italic;
+}
+
+.blogssectiondetail p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 27px;
+    color: rgb(20,20,20);
+    font-family: "Roboto";
+}
+
+.blogssectiondetail .sharebutton {
+    float: left;
+    width: 100%;
+    padding: 50px 0px;
+}
+.blogssectiondetail .rightsidebar .followus {
+    float: left;
+    width: 100%;
+    background-color: #2D2D2D;
+    padding: 15px;    
+}
+
+.blogssectiondetail .rightsidebar .followus .socialdatafollow{
+    border: 2px solid #fff;
+    padding: 20px 8px;
+}
+
+.rightsidebar .followus .socialdata {
+    padding: 0px;
+    text-align: center;
+    float: none;
+    list-style: none;
+}
+
+.rightsidebar .followus .socialdatafollow h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: rgb(255,255,255);    
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rightsidebar .followus .socialdata li {
+    display: inline-block;
+    float: none;
+    padding: 1px;
+}
+
+.rightsidebar .followus ul li i {
+    font-size: 24px;
+    padding: 9px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+}
+
+.rightsidebar .followus ul li .fa-facebook {
+    background-color: #3a5998;
+}
+.rightsidebar .followus ul li .fa-twitter {
+    background-color: #1da1f2;
+}
+.rightsidebar .followus ul li .fa-youtube {
+    background-color: #ff2602;
+}
+.rightsidebar .followus ul li .fa-google-plus {
+    background-color: #ea4335;
+}
+
+.recentpost h3.heading {
+    background-color: #dfe2e6;
+    padding: 20px 0px;
+    margin-bottom: 20px;    
+    float: left;
+    width: 100%;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: rgb(20,20,20);   
+    font-weight: 600;
+    text-align: center;    
+}
+
+.recentpost h5 {
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: rgb(160,160,160);
+    font-family: "Roboto" !important;
+    font-style: italic;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.recentpost a{
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: rgb(220,32,0);
+    font-family: "Roboto" !important;
+    font-weight: bold;
+}
+
+.recentpost .item h3{
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 0px;
+    color: rgb(20,20,20);
+    margin-top: 0px;
+}
+
+.recentpost .item p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(41,41,41);
+    font-family: "Roboto" !important;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.blogssectiondetail .blogpart1{
+    padding-right: 60px;
+}
+
+.recentpost .item{
+    margin-bottom: 10px;
+}
+
+/*Subscribe_Step1 Page*/
+
+#subscribefooter{
+    border-top: 1px solid #fff;
+}
+.subscribeform p{
+    font-size: 14px;
+    font-family: "Roboto";
+    text-align: center;
+    line-height: 27px;
+}
+
+.subscribeform form{    
+    width: 60%;
+    margin: 0 auto;
+}
+.subscribeform form h4{
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 27px;
+    color: rgb(255,255,255);
+    font-family: "Roboto" !important;
+    margin-bottom: 15px;
+}
+.subscribeform .right{
+    padding: 50px 0px;
+    float: left;
+    width: 100%;
+}
+.subscribeform form input[type="button"]{
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    text-align: center;
+    background-color: #ad1c03;
+    border: none;
+    padding: 5px 40px;
+    float: right;
+}
+.subscribeform form input[type="text"]{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 0px;
+    font-family: "Roboto";
+    font-style: italic;
+    color: rgb(117,117,117);
+}
+.subscribeform form .formfield.terms{
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 10px;
+}
+.subscribeform form .formfield.terms span{
+    padding-left: 15px;
+}
+.subscriptionpopup .modal-content{
+    border-radius: 0px;
+}
+.subscriptionpopup .modal-border{
+    margin: 15px;
+    border: 1px solid #000;
+}
+.subscriptionpopup .modal-header,
+.subscriptionpopup .modal-footer{
+    border: none;
+}
+
+.subscriptionpopup .modal-content .modal-border .modal-header h4{
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: rgb(20,20,20);
+    font-family: "Old Standard TT";
+    font-style: italic;;
+    text-align: center;
+}
+
+.subscriptionpopup .modal-content .modal-border .modal-body p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: rgb(41,41,41);
+    font-family: "Roboto";
+    font-style: italic;;
+    text-align: center;
+}
+.subscriptionpopup .modal-content .modal-border .modal-footer{
+    text-align: center;
+}
+
+.subscriptionpopup .modal-content .modal-border .modal-footer button{
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    text-align: center;
+    background-color: #2D2D2D;
+    padding: 5px 70px;
+}
+
+.subscriptionpopup .modal-dialog{
+    margin-top: 100px;
+}
+
+/*Subscribe_Step2 Page*/
+
+.subscribeform .countryflag {
+    text-align: left;
+    float: left;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.subscribeform .countryflag .countrycode{
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: rgb(117,117,117);
+    font-family: "Roboto";
+    font-style: italic;   
+}
+.subscribeform .countrycodedropdown,
+.subscribeform .countryflag .btn-primary:hover,
+.subscribeform .countryflag .btn-primary:focus{
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.subscribeform .countrycodedropdown{
+    padding: 7px 12px;
+}
+
+.subscribeform .countrycodedropdown .caret{
+    color: rgb(117,117,117);
+}
+
+.subscribeform .countryflag .dropdown-menu{
+    min-width: 25%;
+}
+.subscribeform .countryflag img{
+    padding-left: 10px;
+    padding-right: 5px;
+    //float: right;
+}
+
+.subscribeform .countryflag .dropdown-menu>li{
+    padding: 4px 12px;
+}
+
+.subscribeform .countryflag .dropdown-menu>li:hover{
+    cursor: pointer;
+}
+
+.subscribeform .firsthalffield{
+    float: left;
+    //width: 38%;
+    padding-left: 0px;
+    padding-right: 30px;
+}
+.subscribeform .secondhalffield{
+    float: right;
+    padding-left: 0px;
+    padding-right: 0px;
+    //width: 38%;
+}
+.subscribeform form .row2firsthalffield{
+    float: left;
+    padding-left: 0px;
+    padding-right: 30px;
+    //width: 58%;
+}
+.subscribeform form .row2secondhalf{
+    float: right;
+    padding: 0px;
+    //width: 38%;
+}
+.subscribeform form .row2secondhalf .row2secondhalffield{
+    float: left;
+    padding-left: 0px;
+    // width: 45%;
+}
+.subscribeform form .row2secondhalf .row2thirdhalffield{
+    float: right;
+    padding: 0px; 
+    // width: 45%;
+}
+.subscribeform form .row3firsthalffield{
+    float: left;
+    padding-left: 0px;
+    //width: 68%;
+}
+.subscribeform form .row3secondhalffield{
+    float: right;
+    padding-right: 0px;
+    //width: 28%;
+}
+.subscribeform form .row4halffield{
+    float: left;
+    padding-left: 0px;
+    padding-right: 30px;
+    //width: 58%;
+}
+.subscribeform form .row4halffield select{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 0px;
+    font-family: "Roboto";
+    font-style: italic;
+    color: rgb(117,117,117);    
+    height: 45px;
+}
+
+.subscribeform form .firstimg .imgdisplay .btn.btn-file>input[type='file'],
+.subscribeform form .secondimg .imgdisplay .btn.btn-file>input[type='file']{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;   
+    opacity: 0;    
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.subscribeform form .firstimg .imgdisplay .btn.btn-file,
+.subscribeform form .secondimg .imgdisplay .btn.btn-file{
+    position: relative;
+    overflow: hidden;
+}
+
+.subscribeform form .firstimg .uploadgalleryimg .imgdisplay,
+.subscribeform form .secondimg .uploadgalleryimg .imgdisplay{
+    border: 1px solid;
+    width: 100%;
+    height: 245px;
+    margin: 0 auto;
+}
+
+.subscribeform form .firstimg .uploadgalleryimg p,
+.subscribeform form .secondimg .uploadgalleryimg p{
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: rgb(255,255,255);
+    font-family: "Josefin Sans";
+    text-align: center;
+}
+
+.subscribeform form .firstimg .uploadgalleryimg .imgdisplay .btn-default,
+.subscribeform form .secondimg .uploadgalleryimg .imgdisplay .btn-default{
+    background-color: #2D2D2D;
+    border: none;
+    border-radius: 0px;   
+}
+.subscribeform form .firstimg .uploadgalleryimg .imgdisplay .btn-default .fileinput-new,
+.subscribeform form .secondimg .uploadgalleryimg .imgdisplay .btn-default .fileinput-new{
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    text-align: center;
+}
+.subscribeform form .firstimg .uploadgalleryimg .imgdisplay .imagedata{
+    float: left;
+    padding-top: 35px;
+}
+.subscribeform form .firsttitle{
+    padding-left: 0px;
+}
+.subscribeform form .secondimg .uploadgalleryimg .imgdisplay .imagedata{
+    text-align: center;
+    padding-top: 55px;
+}
+.subscribeform form .secondimg{
+    //float: right;       
+}
+.subscribeform form .secondtitle h4{
+    text-align: center;
+}
+.subscribeform .labeldata{
+    float: left;
+    width: 100%;
+    padding: 30px 0px;
+}
+.subscribeform .labeldata h3{
+    margin-top: 0px;
+}
+.subscribeform .paypaltras{
+    float: left;
+    //width: 45%;
+}
+.subscribeform .paypaltras .paypalimg{
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.subscribeform .banktransfertras{
+    float: right;
+}
+.subscribeform .banktransfertras .banktransferimg{
+    float: right;
+    background-color: #fff;
+    border-radius: 5px; 
+    padding: 5px 15px;
+}
+.subscribeform form .savedata{
+    float: none !important;
+    padding: 5px 100px !important
+}
+.subscribeform .step2{
+    padding-bottom: 10px;
+}
+.subscribeform .right .savebutton{
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+.subscribeform form .imagelabels,
+.subscribeform form .imagemaindiv{
+    float: left;
+    width: 100%;
+}
+
+/* Dashboard Page */
+
+.dashboardpage{
+    float: left; 
+    width: 100%;
+}
+
+.dashboardpage .loginuserimage{
+    padding: 30px;
+    text-align: center;
+}
+
+.dashboardpage .loginuserimage .displayuserimage{
+    border-radius: 50%;
+    border: 3px solid #fff;  
+    width: 168px;
+    min-height: 168px;
+}
+
+.dashboardpage .menuopts{
+    background-image: linear-gradient(149deg, #494949 0%, #2a2a2a 83%, #292929 100%);
+    padding-right: 0px;
+    float: left;
+    padding-left: 5px;
+}
+
+.dashboardpage .loginusername{
+    text-align: center;
+}
+.dashboardpage .loginusername h3{
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: rgb(255,255,255);
+    font-family: "Old Standard TT";
+    font-weight: bold;    
+}
+.dashboardpage .loginusername .border{
+    background-color: #dc2100;
+    height: 2px;
+    width: 30%;
+    margin: 0 auto;
+}
+.dashboardpage .loginusername p{
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 27px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    padding-top: 15px;
+}
+.dashboardpage .otheruseroptions{
+    float: left;
+    width: 100%;
+    padding-top: 50px;
+}
+.dashboardpage .otheruseroptions ul {
+    padding-left: 60px;
+}
+.dashboardpage .otheruseroptions ul li{
+    float: left;
+    width: 100%;
+    padding-bottom: 25px;
+    list-style: none;
+}
+.dashboardpage .otheruseroptions ul li a .menuname{
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: rgb(255,255,255);   
+    font-family: "Roboto";
+    text-transform: uppercase;
+}
+.dashboardpage .otheruseroptions ul li a .menuicons i{
+    font-size: 25px;
+    color: rgb(255,255,255);   
+}
+.dashboardpage .otheruseroptions ul li a .menuicons{
+    float: left;
+    padding-right: 20px;
+}
+.dashboardpage .otheruseroptions ul li a:hover .menuname,
+.dashboardpage .otheruseroptions ul li a:hover .menuicons i{
+    color: rgb(220,32,0);
+}
+
+.dashboardpage .pagecontent{
+    float: left;
+    padding: 25px 30px;
+}
+.dashboardpage .pagecontent h2{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: rgb(34,34,34);
+    font-family: "Old Standard TT";
+    font-weight: bold;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+.dashboardpage .pagecontent .subscriptionstatus,
+.dashboardpage .pagecontent .subscriptionexpires{
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: rgb(41,41,41);
+    font-family: "Lato";
+}
+.dashboardpage .pagecontent .premium{
+    float: left;
+    width: 100%;
+    padding: 30px 0px 55px 0px;
+}
+
+.dashboardpage .pagecontent .premium .premiumdetails{
+    padding: 20px 30px;
+    background-color: #d7d7d7;
+    border: 1px solid #969696;
+    float: left;
+    width: 100%;
+}
+.dashboardpage .pagecontent .premium .premiumdetails:hover{
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.dashboardpage .pagecontent .premium .premiumdetails label{
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: rgb(29,29,29);
+    font-family: "Roboto";
+    font-weight: normal;
+    float: left;
+    padding-right: 5px;
+}
+.dashboardpage .pagecontent .premium .premiumdetails button{
+    background-color: #2D2D2D;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    float: right;
+}
+.dashboardpage .pagecontent .premium .premiumdetails a{
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    text-align: center;
+    text-transform: uppercase;
+}
+.dashboardpage .pagecontent .vendisu .item:last-child .innerdiv{
+    padding: 40px 10px 30px 10px;
+}
+.dashboardpage .pagecontent .vendisu .outerdiv{
+    background-image: linear-gradient(149deg, #494949 0%, #2a2a2a 83%, #292929 100%);
+    float: left;
+    width: 100%;
+}
+.dashboardpage .pagecontent .vendisu .item .innerdiv{
+    float: left;
+    width: 100%;
+    padding: 40px 10px 30px 10px;
+}
+.dashboardpage .pagecontent .vendisu .item .innerdiv .articlesnumber .articleicon{
+    text-align: left;
+    float: left;
+    width: 100%;
+}
+.dashboardpage .pagecontent .vendisu .item .innerdiv .articlesnumber .articleicon img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.dashboardpage .pagecontent .vendisu .item .innerdiv .articlesnumber .articleicon .totalarticles{
+    float: left;
+    font-size: 60px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    text-align: center;
+}
+.dashboardpage .pagecontent .vendisu .item .innerdiv .articledesc{
+    float: left;
+    width: 100%;    
+}
+.dashboardpage .pagecontent .vendisu .item .innerdiv .articledesc h3{
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: rgb(255,255,255);
+    font-family: "Roboto" !important;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.dashboardpage .pagecontent .vendisu .item .innerdiv .articledesc p{
+    font-size: 14px;
+    color: rgb(255,255,255);
+    font-family: "Roboto"!important;
+    text-align: center;
+    padding-top: 10px;
+}
+.dashboardpage .pagecontent .vendisu .item .innerdiv .articledesc .border{
+    background-color: #dc2100;
+    height: 2px;
+    width: 30%;
+    margin: 0 auto;
+}
+.dashboardpage .pagecontent .vendisu .item .innerdiv .artifirstdiv,
+.dashboardpage .pagecontent .vendisu .item .innerdiv .artiseconddiv{
+    padding: 0px;
+} 
+
+.dashboardpage .pagecontent .vendisu .item .innerdiv .heightfixdiv{
+    min-height: 120px;
+}
+
+.dashboardpage .pagecontent .vendisu .item .innerdiv .articlesnumber .articleicon .addarticlenumber{
+    float: left;
+    font-size: 60px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    text-align: center;
+}
+.dashboardpage .pagecontent .vendisu .item .innerdiv .articlesnumber .articleicon .uploadedarticle{
+    font-size: 30px;
+}

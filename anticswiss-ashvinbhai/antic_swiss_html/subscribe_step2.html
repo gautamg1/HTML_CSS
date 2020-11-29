@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Antic Swiss</title>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto" />
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Old Standard TT" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/responsive.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery.min.js"></script>       
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="maincontainer">
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul>
+                    <li><a href="category.html">Collezione</a></li>
+                    <li><a href="#">Novità</a></li>
+                    <li><a href="product_list.html">Antiquari</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="about.html">Chi siamo</a></li>
+                    <li><a href="contact.html">Contatti</a></li>
+                </ul>
+            </div>
+
+            <div class="header">
+                <div class="headertop">
+                    <div class="container">
+                        <div class="col-md-9 col-sm-12 col-xs-12 headerinfo">
+                            <div class="item col-md-4 col-xs-12 col-sm-6 text-center">
+                                <form>
+                                    <input type="text" placeholder="Cerca">
+                                    <input type="submit">
+                                </form>
+                            </div>
+                            <div class="item col-md-4 col-xs-12 col-sm-6 galleriabtn text-center">
+                                <a href="#">SEI UN ANTIQUARIO? ISCRIVITI</a>
+                            </div>
+                            <div class="item col-md-2 col-xs-12 col-sm-6 text-center username">
+                                <a class="loginsignup" href="#">Accedi<img src="images/icon-accedi.jpg"></a>
+                            </div>
+                            <div class="item col-md-2 col-xs-12 col-sm-6 text-center lang">
+                                <div class="dropdown">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                        <img src="images/flag.jpg">
+                                        <span class="caret"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><img src="images/flag.jpg"></a></li>
+                                        <li><a href="#"><img src="images/flag.jpg"></a></li>
+                                        <li><a href="#"><img src="images/flag.jpg"></a></li>
+                                    </ul>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="headerbottom">
+                    <div class="container">
+                        <div class="col-md-12">
+                            <div class="logo col-md-3 col-xs-12 text-center">
+                                <span class="togglesidemenu" onclick="openNav()">&#9776; MENU</span>
+                                <a href="index.html"><img src="images/logo.png"></a>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="navigationmenu">
+                                    <ul>
+                                        <li class="active"><a href="category.html">Collezione</a></li>
+                                        <li><a href="#">novità</a></li>
+                                        <li><a href="product_list.html">antiquari</a></li>
+                                        <li><a href="#">blog</a></li>
+                                        <li><a href="about.html">Chi siamo</a></li>
+                                        <li><a href="contact.html">contatti</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>    
+            <div class="homebanner">
+                <div class="overlay"></div>
+                <img src="images/subscribestep1_banner.png">
+                <div class="textlayer text-center">
+                    <div class="container">
+                        <div class="col-md-12 text-center">
+                            <h1>Completa la tua iscrizione</h1>
+                            <div class="border"></div>
+                            <p>e comincia a guadagnare con Antic Swuiss</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="preziosidipinti subscribeform">
+                <div class="container">
+                    <div class="col-md-12 text-center">
+                        <h3>Inserisci i tuoi dati e completa il tuo profilo.</h3>
+                        <div class="border"></div>
+                        <p>Manca solo un passaggio per completare l’isccrizione: Completa i campi sottostanti e procedi col pagamento.</p>
+                        <div class="col-md-12">
+                            <div class="right col-md-12 col-sm-12 step2">                               
+                                <form class="substep2">
+                                    <h4>Inserisci i dati della galleria.</h4>
+                                    <div class="formfield">
+                                        <div class="dropdown countryflag col-md-3 col-sm-3 col-xs-12 common-margin">
+                                            <button class="btn btn-primary dropdown-toggle countrycodedropdown" type="button" data-toggle="dropdown" id="countrydropdown">
+                                                <span class="countrycode" id="setcountrycode">+39</span><img src="images/flag.jpg">
+                                                <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><span class="countrycode">+39</span><img src="images/flag.jpg"></li>
+                                                <li><span class="countrycode">+91</span><img src="images/flag.jpg"></li>
+                                                <li><span class="countrycode">+80</span><img src="images/flag.jpg"></li>
+                                            </ul>                                            
+                                        </div> 
+                                        <div class="firsthalffield col-md-5 col-sm-5 col-xs-12 common-margin">
+                                            <input type="text" placeholder="Numero di telefono">
+                                        </div>
+                                        <div class="secondhalffield col-md-4 col-sm-4 col-xs-12 common-margin">
+                                            <input type="text" placeholder="Partita Iva">
+                                        </div>
+                                    </div>
+                                    <div class="formfield">
+                                        <div class="row2firsthalffield col-md-8 col-sm-8 col-xs-12 common-margin">
+                                            <input type="text" placeholder="Via, Piazza… ">
+                                        </div>
+                                        <div class="row2secondhalf col-md-4 col-sm-4 col-xs-12">
+                                            <div class="row2secondhalffield col-md-6 col-sm-6 col-xs-12 common-margin">
+                                                <input type="text" placeholder="N:Civico">
+                                            </div>
+                                            <div class="row2thirdhalffield col-md-6 col-sm-6 col-xs-12 common-margin">
+                                                <input type="text" placeholder="CAP">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="formfield">
+                                        <div class="row3firsthalffield col-md-9 col-sm-9 col-xs-12 common-margin">
+                                            <input type="text" placeholder="Città">
+                                        </div>
+                                        <div class="row3secondhalffield col-md-3 col-sm-3 col-xs-12 common-margin">
+                                            <input type="text" placeholder="Provincia">
+                                        </div>
+                                    </div>
+                                    <div class="formfield">
+                                        <div class="form-group row4halffield col-md-8 col-sm-8 col-xs-12 common-margin">                                           
+                                            <select class="form-control" id="sel1">
+                                                <option>Nazione</option>
+                                                <option>Nazione2</option>
+                                                <option>Nazione3</option>
+                                                <option>Nazione4</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="formfield">
+<!--                                        <div class="imagelabels">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 firsttitle common-margin">
+                                                <h4>Carica la foto di profilo della galleria.</h4>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 secondtitle common-margin">
+                                                <h4>Carica qui una tua foto.</h4>
+                                            </div>
+                                        </div>-->
+                                        <div class="imagemaindiv">                                            
+                                            <div class="col-md-5 col-sm-6 col-xs-12 firsttitle common-margin">
+                                                <h4>Carica la foto di profilo della galleria.</h4>
+                                                <div class="firstimg">
+                                                    <div class="uploadgalleryimg">                                                
+                                                        <div class="imgdisplay" id="imagedisplay1">                                                            
+                                                            <div class="imagedata">
+                                                                <p>Rilascia qui il logo o una foto della galleria,oppure</p>
+                                                                <span class="btn btn-default btn-file">
+                                                                    <span class="fileinput-new">CARICA LA FOTO</span>                                                            
+                                                                    <input type="file" name="tImage" onchange="readURL(this, 1);" class="valid" aria-invalid="false">
+                                                                </span>                                                    
+                                                            </div> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2"></div>                                            
+                                            <div class="col-md-5 col-sm-6 col-xs-12 secondtitle common-margin">
+                                                <h4>Carica qui una tua foto.</h4>
+                                                <div class="secondimg">
+                                                    <div class="uploadgalleryimg">                                                
+                                                        <div class="imgdisplay" id="imagedisplay2">
+                                                            <div class="imagedata">
+                                                                <p>Rilascia qui una tua foto,oppure</p>
+                                                                <span class="btn btn-default btn-file">
+                                                                    <span class="fileinput-new">CARICA LA FOTO</span>                                                            
+                                                                    <input type="file" name="tImage" onchange="readURL(this, 2);" class="valid" aria-invalid="false">
+                                                                </span>                                                    
+                                                            </div> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="labeldata">
+                                        <h3>Seleziona il metodo di pagamento.</h3>
+                                        <div class="border"></div>
+                                    </div>
+
+                                    <div class="formfield">
+                                        <div class="col-md-6 col-sm-4 col-xs-12 paypaltras common-margin">
+                                            <a href="javascript:void(0);">
+                                                <div class="paypalimg"><img src="images/paypal.png" alt="Paypal"></div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-4 col-xs-12 banktransfertras common-margin">
+                                            <a href="javascript:void(0);">
+                                                <div class="banktransferimg">
+                                                    <img src="images/banktransfer.png" alt="Bank Transfer">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="formfield savebutton">
+                                        <input type="button" value="SALVA" class="savedata">
+                                    </div>
+                                    <!--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>-->
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="item col-md-4 col-sm-12">
+                            <img class="footlogo" src="images/logo.png">
+                            <ul class="addressinfo">
+                                <li>Via Lucardesi, <br> 50026 San Casciano in Val di Pesa (FI) </li>
+                                <li>Tel.+39 338 623 32 46 - info@anticswiss.com</li>
+                            </ul>
+                            <ul class="socialicon">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="item col-md-2 col-sm-4">
+                            <ul class="footermenu">
+                                <li><a href="#">Chi siamo</a></li>
+                                <li><a href="#">Contatti</a></li>
+                                <li><a href="#">Antiquari</a></li>
+                                <li><a href="#">Vendi sul sito</a></li>
+                            </ul>
+                        </div>
+                        <div class="item col-md-2 col-sm-4">
+                            <ul class="footermenu">
+                                <li><a href="#">Collezione</a></li>
+                                <li><a href="#">Oggetti venduti</a></li>
+                                <li><a href="#">Oggetti riservati</a></li>
+                                <li><a href="#">In Evidenza</a></li>
+                                <li><a href="#">Novità</a></li>
+                            </ul>
+                        </div>
+                        <div class="item col-md-4 col-sm-4">
+                            <img src="images/footerflag.jpg">
+                            <ul class="footermenu">
+                                <li><a href="#">Vendere su anticSwiss</a></li>
+                                <li><a href="#">Tariffe e abbonamenti</a></li>
+                                <li><a href="#">Trasporto</a></li>
+                                <li><a href="#">Normativa e condizioni d’uso</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                        <div class="col-md-12">
+                            <div class="col-md-6 col-xs-12">
+                                <p>&copy;anticSwiss™ - P.IVA IT02292420482</p>
+                            </div>
+                            <div class="col-md-6 col-xs-12 text-right">
+                                <p>design by: Credits</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script type="text/javascript">
+            function readURL(input, flag) {
+                if (input.files && input.files[0]) {
+
+                    var reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        $('#imagedisplay' + flag)
+                                .css({"background-image": "url(" + e.target.result + ")", "background-repeat": "no-repeat", "background-size": "100% 100%"});
+
+                    };
+                    reader.readAsDataURL(input.files[0]);
+                }
+            }
+            
+            $(document).on("click", '.dropdown-menu li', function (event) {
+                  var htmldata = $(this).html();
+                  htmldata += '<span class="caret"></span>';
+                  $("#countrydropdown").html(htmldata);
+            });
+        </script>
+    </body>
+</html>

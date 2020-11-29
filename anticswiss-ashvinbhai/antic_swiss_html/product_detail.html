@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Antic Swiss</title>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto" />
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Old Standard TT" />
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Alex Brush" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/responsive.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+        <div class="maincontainer">
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul>
+                    <li><a href="#">Collezione</a></li>
+                    <li><a href="#">Novità</a></li>
+                    <li><a href="#">Antiquari</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Chi siamo</a></li>
+                    <li><a href="#">Contatti</a></li>
+                </ul>
+            </div>
+
+            <div class="header">
+                <div class="headertop">
+                    <div class="container">
+                        <div class="col-md-9 headerinfo">
+                            <div class="item col-md-4 col-xs-12 col-sm-6 text-center">
+                                <form>
+                                    <input type="text" placeholder="Cerca">
+                                    <input type="submit">
+                                </form>
+                            </div>
+                            <div class="item col-md-4 col-xs-12 col-sm-6 galleriabtn text-center">
+                                <a href="#">SEI UN ANTIQUARIO? ISCRIVITI</a>
+                            </div>
+                            <div class="item col-md-2 col-xs-12 col-sm-6 text-center username">
+                                <a class="loginsignup" href="#">Accedi<img src="images/icon-accedi.jpg"></a>
+                            </div>
+                            <div class="item col-md-2 col-xs-12 col-sm-6 text-center lang">
+                                <div class="dropdown">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                        <img src="images/flag.jpg">
+                                        <span class="caret"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><img src="images/flag.jpg"></a></li>
+                                        <li><a href="#"><img src="images/flag.jpg"></a></li>
+                                        <li><a href="#"><img src="images/flag.jpg"></a></li>
+                                    </ul>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="headerbottom">
+                    <div class="container">
+                        <div class="col-md-12">
+                            <div class="logo col-md-3 col-xs-12 text-center">
+                                <span class="togglesidemenu" onclick="openNav()">&#9776; MENU</span>
+                                <a href="index.html"><img src="images/logo.png"></a>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="navigationmenu">
+                                    <ul>
+                                        <li class="active"><a href="#">Collezione</a></li>
+                                        <li><a href="#">novità</a></li>
+                                        <li><a href="#">antiquari</a></li>
+                                        <li><a href="#">blog</a></li>
+                                        <li><a href="#">Chi siamo</a></li>
+                                        <li><a href="#">contatti</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="productdetails">
+                <div class="container">
+                    <div class="col-md-12">
+
+                        <div class="col-md-12">
+                            <div class="breadcrumbs">
+                                Home > 20° secolo - 1900 > Uovo russo da collezione, XX secolo
+                            </div>
+                        </div>
+
+                        <div class="left col-md-6">
+                            <img src="images/productdetail.jpg">
+
+                            <ul class="socialicons">
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            </ul>
+
+                            <ul class="socialicons print">
+                                <li><a href="#"><i class="fa fa-print"></i></a></li>
+                            </ul>
+
+                            <div class="galleryslider col-md-12 text-center">
+                                <div class="slider-wrap">
+                                    <div class="slider" id="slider">
+                                        <ul>
+                                            <li> 
+                                                <a href="#">
+                                                    <div class="item">
+                                                        <img src="images/productgallery1.jpg"> 
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li> 
+                                                <a href="#">
+                                                    <div class="item">
+                                                        <img src="images/productgallery1.jpg"> 
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li> 
+                                                <a href="#">
+                                                    <div class="item">
+                                                        <img src="images/productgallery1.jpg"> 
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li> 
+                                                <a href="#">
+                                                    <div class="item">
+                                                        <img src="images/productgallery1.jpg"> 
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="slider-arrow sa-left"><img src="images/leftarrow.png"></a> 
+                                    <a href="#" class="slider-arrow sa-right"><img src="images/rightarrow.png"></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="right col-md-6">
+                            <h1>UOVO RUSSO DA <br> COLLEZIONE, XX SECOLO</h1>
+
+                            <ul class="productinfolist">
+                                <li><label>EPOCA:</label> 20° secolo - 1900</li>
+                                <li><label>STILE:</label> Altri stili</li>
+                                <li><label>ALTEZZA:</label> 13cm</li>
+                                <li><label>MATERIALE:</label> argento e smalti cloisonné</li>
+                                <li><label>PREZZO:</label> € 900</li>
+                            </ul>
+
+                            <h4>ANTIQUARIO:</h4>
+                            <h3>Bart Wouters Galerie Belgium</h3>
+                            <p>Quadri antichi, Bronzi antichi, Paesaggi, Sculture antiche</p>
+
+                            <ul class="addressinfos">
+                                <li class="address"><i class="fa fa-map-marker"></i>Kapelsesteenweg 382 (Brassschaat - Belgium)</li>
+                                <li><i class="fa fa-phone"></i>+32 360 52 182</li>
+                                <li><i class="fa fa-phone"></i>+32 0474 45 15 67</li>
+                            </ul>
+
+                            <div class="productbuttons">
+                                <a href="#">ACQUISTA ONLINE</a>
+                                <a href="#">FAI UN’OFFERTA</a>
+                                <a class="contatta" href="#">CONTATTA L’ANTIQUARIO</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="productdescription">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="left col-md-4">
+                            <h3>Descrizione dettagliata</h3>
+                            <div class="border"></div>
+                            <ul>
+                                <li>Nikanov Zolotov (attivo dal 1908 al 1926)</li>
+                                <li>Città: Kostroma</li>
+                                <li>Uovo da collezione apribile, sorretto da tre piedini.</li>
+                                <li>Argento dorato con decorazioni in smalto cloisonne e pietre.</li>
+                                <li>Dimensioni (cm): h. 13</li>
+                            </ul>
+                        </div>
+                        <div class="right col-md-8">
+                            <p>
+                                Raro e prezioso modello di contenitore oviforme in argento russo con titolo 84 zolotnik (875/°°°),
+                                interamente smaltato a cloisonné su tutta la superficie con i toni prevalenti del blu e del
+                                celeste, con incastonate otto pietre granate a cabochon color rosso sangue e con tre cigni
+                                in rilievo nella parte superiore, simbolo di regalità ed eleganza.
+                            </p>
+
+                            <p>    L'oggetto è un esemplare del celeberrimo modello, definito l''uovo dei tre cigni', 
+                                proposto dai più importanti argentieri russi a cavallo tra XIX e XX secolo, e di cui in galleria
+                                è ancora visionabile uno stesso esemplare, realizzato da Pavel Ovchinnikov. 
+                            </p>
+                            <p>
+                                L'opera è sorretta da un basamento costituito da tre piedini dalla foggia di zampa di struzzo; 
+                                la parte interna è dorata.
+                            </p>
+                            <p>
+                                I marchi, presenti all'interno, sul bordino di chiusura, portano le iniziali in cirillico "H.3" 
+                                del creatore Nikanov Zolotov, rinomato orafo russo operante a Kostroma, una città della 
+                                Russia europea centrale, a nord-est di Mosca, a partire dal 1908. 
+                            </p>
+                            <p>
+                                Presente anche il marchio di garanzia dell'aquila bicefala, simbolo della relativa origine
+                                imperiale russa.
+                                La straordinaria qualità della minuziosa esecuzione ed il disegno premuroso, ricco di colori 
+                                e sfumature, disegnato e realizzato dall'orafo Zolotov, pari a quello di oggetti
+                                d'arte similari prodotti da Fabergè o da Khlebnikov, denota l'alta commissione 
+                                da parte di una famiglia aristocratica. 
+                            </p>
+                            <p>
+                                L'opera è in perfette condizioni e, come ogni nostro oggetto, viene venduto corredato di 
+                                certificato di autenticità.
+                            </p>
+
+
+                            <div class="signature">
+                                <p>Bart Wouters Galerie Belgium</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articoliinevidenza altrioggetti">
+
+                <div class="altrioggettiouter">
+
+
+                    <div class="altrioggettiouterinner">
+
+                        <div class="altrioggettiinner">
+
+
+                            <div class="col-md-12 text-center veditutti">
+                                <h2 class="heading">Altri oggetti dell’antiquario</h2>
+                                <span>Vedi tutti</span>
+                                <div class="border"></div>
+                            </div>
+
+                            <div class="col-md-12 text-center">
+                                <div class="slider-wrap">
+                                    <div class="slider1" id="slider1">
+                                        <ul>
+                                            <li> 
+                                                <a href="#">
+                                                    <div class="item">
+                                                        <img src="images/articoliinevidenza1.png"> 
+                                                        <div class="outerdiv">
+                                                            <div class="innerdiv">
+                                                                <div class="innertext">
+                                                                    <h3 class="hidetext">&euro; 3900</h3>
+                                                                    <div class="border"></div>
+                                                                    <p>International Antiques</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="offer">
+                                                            <img src="images/exlusivo.png">
+                                                        </div>
+                                                    </div>
+
+                                                    <p class="desc">
+                                                        FORZIERE DI MARINA, FERRO FORGIATO, DIPINTO NORIMBERGA - XVII SECOLO
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li> 
+                                                <a href="#">
+                                                    <div class="item">
+                                                        <img src="images/articoliinevidenza1.png"> 
+                                                        <div class="outerdiv">
+                                                            <div class="innerdiv">
+                                                                <div class="innertext">
+                                                                    <h3 class="hidetext">&euro; 3900</h3>
+                                                                    <div class="border"></div>
+                                                                    <p>International Antiques</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="offer">
+                                                            <img src="images/exlusivo.png">
+                                                        </div>
+                                                    </div>
+                                                    <p class="desc">
+                                                        IMPORTANTE CALAMAIO A POMPA FIRMATO - XIX SECOLO
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li> 
+                                                <a href="#">
+                                                    <div class="item">
+                                                        <img src="images/articoliinevidenza1.png"> 
+                                                        <div class="outerdiv">
+                                                            <div class="innerdiv">
+                                                                <div class="innertext">
+                                                                    <h3 class="hidetext">&euro; 3900</h3>
+                                                                    <div class="border"></div>
+                                                                    <p>International Antiques</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="offer">
+                                                            <img src="images/exlusivo.png">
+                                                        </div>
+                                                    </div>
+                                                    <p class="desc">
+                                                        FIORI, OLIO SU CARTONE -  P. MOULIN - XX SECOLO
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li> 
+                                                <a href="#">
+                                                    <div class="item">
+                                                        <img src="images/articoliinevidenza1.png"> 
+                                                        <div class="outerdiv">
+                                                            <div class="innerdiv">
+                                                                <div class="innertext">
+                                                                    <h3 class="hidetext">&euro; 3900</h3>
+                                                                    <div class="border"></div>
+                                                                    <p>International Antiques</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="offer">
+                                                            <img src="images/exlusivo.png">
+                                                        </div>
+                                                    </div>
+                                                    <p class="desc">
+                                                        CAFFÈ IN PORCELLANA - JACOB PETIT - XIX SECOLO
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li> 
+                                                <a href="#">
+                                                    <div class="item">
+                                                        <img src="images/articoliinevidenza1.png"> 
+                                                        <div class="outerdiv">
+                                                            <div class="innerdiv">
+                                                                <div class="innertext">
+                                                                    <h3 class="hidetext">&euro; 3900</h3>
+                                                                    <div class="border"></div>
+                                                                    <p>International Antiques</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="offer">
+                                                            <img src="images/exlusivo.png">
+                                                        </div>
+                                                    </div>
+                                                    <p class="desc">
+                                                        FORZIERE DI MARINA, FERRO FORGIATO, DIPINTO NORIMBERGA - XVII SECOLO
+                                                    </p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="slider-arrow sa-left1"><img src="images/leftarrow.png"></a> 
+                                    <a href="#" class="slider-arrow sa-right1"><img src="images/rightarrow.png"></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 text-center veditutti">
+                                <h2 class="heading">Altri oggetti della stessa categoria</h2>
+                                <span>Vedi tutti</span>
+                                <div class="border"></div>
+                            </div>
+
+                            <div class="col-md-12 text-center">
+                                <div class="slider-wrap">
+                                    <div class="slider2" id="slider2">
+                                        <ul>
+                                            <li> 
+                                                <a href="#">
+                                                    <div class="item">
+                                                        <img src="images/articoliinevidenza1.png"> 
+                                                        <div class="outerdiv">
+                                                            <div class="innerdiv">
+                                                                <div class="innertext">
+                                                                    <h3 class="hidetext">&euro; 3900</h3>
+                                                                    <div class="border"></div>
+                                                                    <p>International Antiques</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="offer">
+                                                            <img src="images/exlusivo.png">
+                                                        </div>
+                                                    </div>
+
+                                                    <p class="desc">
+                                                        FORZIERE DI MARINA, FERRO FORGIATO, DIPINTO NORIMBERGA - XVII SECOLO
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li> 
+                                                <a href="#">
+                                                    <div class="item">
+                                                        <img src="images/articoliinevidenza1.png"> 
+                                                        <div class="outerdiv">
+                                                            <div class="innerdiv">
+                                                                <div class="innertext">
+                                                                    <h3 class="hidetext">&euro; 3900</h3>
+                                                                    <div class="border"></div>
+                                                                    <p>International Antiques</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="offer">
+                                                            <img src="images/exlusivo.png">
+                                                        </div>
+                                                    </div>
+                                                    <p class="desc">
+                                                        IMPORTANTE CALAMAIO A POMPA FIRMATO - XIX SECOLO
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li> 
+                                                <a href="#">
+                                                    <div class="item">
+                                                        <img src="images/articoliinevidenza1.png"> 
+                                                        <div class="outerdiv">
+                                                            <div class="innerdiv">
+                                                                <div class="innertext">
+                                                                    <h3 class="hidetext">&euro; 3900</h3>
+                                                                    <div class="border"></div>
+                                                                    <p>International Antiques</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="offer">
+                                                            <img src="images/exlusivo.png">
+                                                        </div>
+                                                    </div>
+                                                    <p class="desc">
+                                                        FIORI, OLIO SU CARTONE -  P. MOULIN - XX SECOLO
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li> 
+                                                <a href="#">
+                                                    <div class="item">
+                                                        <img src="images/articoliinevidenza1.png"> 
+                                                        <div class="outerdiv">
+                                                            <div class="innerdiv">
+                                                                <div class="innertext">
+                                                                    <h3 class="hidetext">&euro; 3900</h3>
+                                                                    <div class="border"></div>
+                                                                    <p>International Antiques</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="offer">
+                                                            <img src="images/exlusivo.png">
+                                                        </div>
+                                                    </div>
+                                                    <p class="desc">
+                                                        CAFFÈ IN PORCELLANA - JACOB PETIT - XIX SECOLO
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li> 
+                                                <a href="#">
+                                                    <div class="item">
+                                                        <img src="images/articoliinevidenza1.png"> 
+                                                        <div class="outerdiv">
+                                                            <div class="innerdiv">
+                                                                <div class="innertext">
+                                                                    <h3 class="hidetext">&euro; 3900</h3>
+                                                                    <div class="border"></div>
+                                                                    <p>International Antiques</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="offer">
+                                                            <img src="images/exlusivo.png">
+                                                        </div>
+                                                    </div>
+                                                    <p class="desc">
+                                                        FORZIERE DI MARINA, FERRO FORGIATO, DIPINTO NORIMBERGA - XVII SECOLO
+                                                    </p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="slider-arrow sa-left2"><img src="images/leftarrow.png"></a> 
+                                    <a href="#" class="slider-arrow sa-right2"><img src="images/rightarrow.png"></a>
+                                </div>
+                            </div>
+
+
+
+                        </div> 
+
+                    </div>   
+                </div>
+
+            </div>
+
+
+            <div class="preziosidipintiitem">
+                <div class="item col-md-4">
+                    <img src="images/preziosidipintiitem1.png">
+                    <div class="outerdiv">
+                        <div class="innerdiv">
+                            <div class="innertext">
+                                <h3 class="hidetext">I nostri antiquari</h3>
+                                <div class="hoverdiv">
+                                    <h4>Focus Gallery:</h4>
+                                    <h3>I nostri antiquari</h3>
+                                    <div class="border"></div>
+                                    <p>Visita la galleria</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4">
+                    <img src="images/preziosidipintiitem2.png">
+                    <div class="outerdiv">
+                        <div class="innerdiv">
+                            <div class="innertext">
+                                <h3 class="hidetext">Ultimi arrivi</h3>
+                                <div class="hoverdiv">
+                                    <h4>Focus Gallery:</h4>
+                                    <h3>Ultimi arrivi</h3>
+                                    <div class="border"></div>
+                                    <p>Visita la galleria</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4">
+                    <img src="images/preziosidipintiitem3.png">
+                    <div class="outerdiv">
+                        <div class="innerdiv">
+                            <div class="innertext">
+                                <h3 class="hidetext">Antiquités Garnier</h3>
+                                <div class="hoverdiv">
+                                    <h4>Focus Gallery:</h4>
+                                    <h3>Antiquités Garnier</h3>
+                                    <div class="border"></div>
+                                    <p>Visita la galleria</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articoliinevidenza">
+                <div class="container">
+                    <div class="col-md-12 text-center">
+                        <h2 class="heading">Prodotti Esclusivi</h2>
+                    </div>
+
+                    <div class="col-md-12 text-center">
+                        <div class="slider-wrap">
+                            <div class="slider3" id="slider3">
+                                <ul>
+                                    <li> 
+                                        <a href="#">
+                                            <div class="item">
+                                                <img src="images/articoliinevidenza1.png"> 
+                                                <div class="outerdiv">
+                                                    <div class="innerdiv">
+                                                        <div class="innertext">
+                                                            <h3 class="hidetext">&euro; 3900</h3>
+                                                            <div class="border"></div>
+                                                            <p>International Antiques</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="offer">
+                                                    <img src="images/exlusivo.png">
+                                                </div>
+                                            </div>
+
+                                            <p class="desc">
+                                                FORZIERE DI MARINA, FERRO FORGIATO, DIPINTO NORIMBERGA - XVII SECOLO
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li> 
+                                        <a href="#">
+                                            <div class="item">
+                                                <img src="images/articoliinevidenza1.png"> 
+                                                <div class="outerdiv">
+                                                    <div class="innerdiv">
+                                                        <div class="innertext">
+                                                            <h3 class="hidetext">&euro; 3900</h3>
+                                                            <div class="border"></div>
+                                                            <p>International Antiques</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="offer">
+                                                    <img src="images/exlusivo.png">
+                                                </div>
+                                            </div>
+                                            <p class="desc">
+                                                IMPORTANTE CALAMAIO A POMPA FIRMATO - XIX SECOLO
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li> 
+                                        <a href="#">
+                                            <div class="item">
+                                                <img src="images/articoliinevidenza1.png"> 
+                                                <div class="outerdiv">
+                                                    <div class="innerdiv">
+                                                        <div class="innertext">
+                                                            <h3 class="hidetext">&euro; 3900</h3>
+                                                            <div class="border"></div>
+                                                            <p>International Antiques</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="offer">
+                                                    <img src="images/exlusivo.png">
+                                                </div>
+                                            </div>
+                                            <p class="desc">
+                                                FIORI, OLIO SU CARTONE -  P. MOULIN - XX SECOLO
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li> 
+                                        <a href="#">
+                                            <div class="item">
+                                                <img src="images/articoliinevidenza1.png"> 
+                                                <div class="outerdiv">
+                                                    <div class="innerdiv">
+                                                        <div class="innertext">
+                                                            <h3 class="hidetext">&euro; 3900</h3>
+                                                            <div class="border"></div>
+                                                            <p>International Antiques</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="offer">
+                                                    <img src="images/exlusivo.png">
+                                                </div>
+                                            </div>
+                                            <p class="desc">
+                                                CAFFÈ IN PORCELLANA - JACOB PETIT - XIX SECOLO
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li> 
+                                        <a href="#">
+                                            <div class="item">
+                                                <img src="images/articoliinevidenza1.png"> 
+                                                <div class="outerdiv">
+                                                    <div class="innerdiv">
+                                                        <div class="innertext">
+                                                            <h3 class="hidetext">&euro; 3900</h3>
+                                                            <div class="border"></div>
+                                                            <p>International Antiques</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="offer">
+                                                    <img src="images/exlusivo.png">
+                                                </div>
+                                            </div>
+                                            <p class="desc">
+                                                FORZIERE DI MARINA, FERRO FORGIATO, DIPINTO NORIMBERGA - XVII SECOLO
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="slider-arrow sa-left3"><img src="images/leftarrow.png"></a> 
+                            <a href="#" class="slider-arrow sa-right3"><img src="images/rightarrow.png"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="vendisu vendisuproduct">
+                <div class="item col-md-6 col-sm-6 text-center">
+                    <div class="outerdiv">
+                        <div class="innerdiv">
+                            <p>
+                                Vendi su AnticSwiss, iscrivi la tua galleria
+                            </p>
+                            <div class="button">
+                                <a href="#">Iscrivi la galleria</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-6 col-sm-6 text-center">
+                    <div class="outerdiv">
+                        <div class="innerdiv">
+                            <p>
+                                Rimani aggiornato sui nuovi prodotti, <br>
+                                Iscriviti alla Newsletter
+                            </p>
+                            <form>
+                                <input type="text">
+                                <input type="submit" value="Iscrivimi">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="footer">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="item col-md-4 col-sm-12">
+                            <img class="footlogo" src="images/logo.png">
+                            <ul class="addressinfo">
+                                <li>Via Lucardesi, <br> 50026 San Casciano in Val di Pesa (FI) </li>
+                                <li>Tel.+39 338 623 32 46 - info@anticswiss.com</li>
+                            </ul>
+                            <ul class="socialicon">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="item col-md-2 col-sm-4">
+                            <ul class="footermenu">
+                                <li><a href="#">Chi siamo</a></li>
+                                <li><a href="#">Contatti</a></li>
+                                <li><a href="#">Antiquari</a></li>
+                                <li><a href="#">Vendi sul sito</a></li>
+                            </ul>
+                        </div>
+                        <div class="item col-md-2 col-sm-4">
+                            <ul class="footermenu">
+                                <li><a href="#">Collezione</a></li>
+                                <li><a href="#">Oggetti venduti</a></li>
+                                <li><a href="#">Oggetti riservati</a></li>
+                                <li><a href="#">In Evidenza</a></li>
+                                <li><a href="#">Novità</a></li>
+                            </ul>
+                        </div>
+                        <div class="item col-md-4 col-sm-4">
+                            <img src="images/footerflag.jpg">
+                            <ul class="footermenu">
+                                <li><a href="#">Vendere su anticSwiss</a></li>
+                                <li><a href="#">Tariffe e abbonamenti</a></li>
+                                <li><a href="#">Trasporto</a></li>
+                                <li><a href="#">Normativa e condizioni d’uso</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                        <div class="col-md-12">
+                            <div class="col-md-6 col-xs-12">
+                                <p>&copy;anticSwiss™ - P.IVA IT02292420482</p>
+                            </div>
+                            <div class="col-md-6 col-xs-12 text-right">
+                                <p>design by: Credits</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/jquery.lbslider.js"></script> 
+
+
+
+        <script>
+                                    $(document).ready(function () {
+                                        $(".slider-wrap .item,.collezionelisting .item").hover(function () {
+                                            $(this).find(".outerdiv").fadeIn(700);
+                                            $(this).find(".outerdiv").css('width', '90%');
+                                            $(this).find(".outerdiv").css('height', '90%');
+                                            $(this).find(".outerdiv").css('display', 'block');
+                                        },
+                                                function () {
+                                                    $(this).find(".outerdiv").fadeOut(200);
+                                                });
+                                    });
+        </script> 
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "260px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+
+
+        <script>
+            var maxSlides1,
+                    width = $(window).width();
+
+            if (width < 320) {
+                maxSlides1 = 2;
+            } else if (width > 321 && width < 400) {
+                maxSlides1 = 2;
+            }
+            else if (width > 401 && width < 600) {
+                maxSlides1 = 3;
+            } else if (width > 601 && width < 990) {
+                maxSlides1 = 4;
+            } else {
+                maxSlides1 = 4;
+            }
+            jQuery('#slider').lbSlider({
+                leftBtn: '.sa-left',
+                rightBtn: '.sa-right',
+                visible: maxSlides1,
+                autoPlay: true,
+                autoPlayDelay: 5
+            });
+        </script>
+
+        <script>
+            var maxSlides,
+                    width = $(window).width();
+
+            if (width < 480) {
+                maxSlides = 1;
+            } else if (width > 481 && width < 767) {
+                maxSlides = 2;
+            } else if (width > 468 && width < 990) {
+                maxSlides = 3;
+            } else {
+                maxSlides = 4;
+            }
+
+            jQuery('#slider1').lbSlider({
+                leftBtn: '.sa-left1',
+                rightBtn: '.sa-right1',
+                visible: maxSlides,
+                autoPlay: true,
+                autoPlayDelay: 5
+            });
+            jQuery('#slider2').lbSlider({
+                leftBtn: '.sa-left2',
+                rightBtn: '.sa-right2',
+                visible: maxSlides,
+                autoPlay: true,
+                autoPlayDelay: 5
+            });
+            jQuery('#slider3').lbSlider({
+                leftBtn: '.sa-left3',
+                rightBtn: '.sa-right3',
+                visible: maxSlides,
+                autoPlay: true,
+                autoPlayDelay: 5
+            });
+        </script>
+
+    </body>
+</html>
